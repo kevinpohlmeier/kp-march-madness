@@ -594,7 +594,7 @@ function getTeamDetails(team) {
         team.TeamMascot = "Wolfpack";
         team.MascotName = "Mr. and Mrs. Wuf";
         team.ColorCodes = [["Red", "#CC0000"], ["White", "#FFFFFF"]];
-        team.MascotImage = "https://tinyurl.com/mt87ezra";
+        team.MascotImage = "https://tinyurl.com/y2yx7f2x";
         break;
 
       case "Nebraska":
