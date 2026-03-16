@@ -412,93 +412,93 @@ function submitEspnBracket2024()
 
 
 function getTeams() {
-
-let teams = [
- 
-  // ===== EAST REGION (Duke 1-seed) =====
-  { "TeamID": 1,  "Seed": "1",  "Name": "Duke",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/150.png" },
-  { "TeamID": 2,  "Seed": "16", "Name": "Siena",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2561.png" },
-  { "TeamID": 3,  "Seed": "8",  "Name": "Ohio St",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/194.png" },
-  { "TeamID": 4,  "Seed": "9",  "Name": "TCU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2628.png" },
-  { "TeamID": 5,  "Seed": "5",  "Name": "St John's",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2599.png" },
-  { "TeamID": 6,  "Seed": "12", "Name": "Northern Iowa",  "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2271.png" },
-  { "TeamID": 7,  "Seed": "4",  "Name": "Kansas",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2305.png" },
-  { "TeamID": 8,  "Seed": "13", "Name": "Cal Baptist",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2856.png" },
-  { "TeamID": 9,  "Seed": "6",  "Name": "Louisville",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/97.png" },
-  { "TeamID": 10, "Seed": "11", "Name": "South Florida",  "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/58.png" },
-  { "TeamID": 11, "Seed": "3",  "Name": "Michigan St",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/127.png" },
-  { "TeamID": 12, "Seed": "14", "Name": "North Dakota St","Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2449.png" },
-  { "TeamID": 13, "Seed": "7",  "Name": "UCLA",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/26.png" },
-  { "TeamID": 14, "Seed": "10", "Name": "UCF",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2116.png" },
-  { "TeamID": 15, "Seed": "2",  "Name": "UConn",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/41.png" },
-  { "TeamID": 16, "Seed": "15", "Name": "Furman",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/231.png" },
- 
-  // ===== SOUTH REGION (Florida 1-seed) =====
-  { "TeamID": 17, "Seed": "1",  "Name": "Florida",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/57.png" },
-  { "TeamID": 18, "Seed": "16", "Name": "PVA/LEH",        "FirstFour": ["Prairie View AM", "Lehigh"] },
-  { "TeamID": 19, "Seed": "8",  "Name": "Clemson",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/228.png" },
-  { "TeamID": 20, "Seed": "9",  "Name": "Iowa",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2294.png" },
-  { "TeamID": 21, "Seed": "5",  "Name": "Vanderbilt",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/238.png" },
-  { "TeamID": 22, "Seed": "12", "Name": "McNeese",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2377.png" },
-  { "TeamID": 23, "Seed": "4",  "Name": "Nebraska",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/158.png" },
-  { "TeamID": 24, "Seed": "13", "Name": "Troy",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2653.png" },
-  { "TeamID": 25, "Seed": "6",  "Name": "North Carolina", "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/153.png" },
-  { "TeamID": 26, "Seed": "11", "Name": "VCU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2670.png" },
-  { "TeamID": 27, "Seed": "3",  "Name": "Illinois",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/356.png" },
-  { "TeamID": 28, "Seed": "14", "Name": "Penn",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/219.png" },
-  { "TeamID": 29, "Seed": "7",  "Name": "Saint Mary's",   "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2608.png" },
-  { "TeamID": 30, "Seed": "10", "Name": "Texas A&M",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/245.png" },
-  { "TeamID": 31, "Seed": "2",  "Name": "Houston",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/248.png" },
-  { "TeamID": 32, "Seed": "15", "Name": "Idaho",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/70.png" },
- 
-  // ===== WEST REGION (Arizona 1-seed) =====
-  { "TeamID": 33, "Seed": "1",  "Name": "Arizona",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/12.png" },
-  { "TeamID": 34, "Seed": "16", "Name": "LIU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2335.png" },
-  { "TeamID": 35, "Seed": "8",  "Name": "Villanova",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/222.png" },
-  { "TeamID": 36, "Seed": "9",  "Name": "Utah State",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/328.png" },
-  { "TeamID": 37, "Seed": "5",  "Name": "Wisconsin",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/275.png" },
-  { "TeamID": 38, "Seed": "12", "Name": "High Point",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2272.png" },
-  { "TeamID": 39, "Seed": "4",  "Name": "Arkansas",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/8.png" },
-  { "TeamID": 40, "Seed": "13", "Name": "Hawaii",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/62.png" },
-  { "TeamID": 41, "Seed": "6",  "Name": "BYU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/252.png" },
-  { "TeamID": 42, "Seed": "11", "Name": "TEX/NCST",       "FirstFour": ["Texas", "NC St"] },
-  { "TeamID": 43, "Seed": "3",  "Name": "Gonzaga",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2250.png" },
-  { "TeamID": 44, "Seed": "14", "Name": "Kennesaw St",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2309.png" },
-  { "TeamID": 45, "Seed": "7",  "Name": "Miami",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2390.png" },
-  { "TeamID": 46, "Seed": "10", "Name": "Missouri",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/142.png" },
-  { "TeamID": 47, "Seed": "2",  "Name": "Purdue",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2509.png" },
-  { "TeamID": 48, "Seed": "15", "Name": "Queens",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/3108.png" },
- 
-  // ===== MIDWEST REGION (Michigan 1-seed) =====
-  { "TeamID": 49, "Seed": "1",  "Name": "Michigan",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/130.png" },
-  { "TeamID": 50, "Seed": "16", "Name": "UMBC/HOW",       "FirstFour": ["UMBC", "Howard"] },
-  { "TeamID": 51, "Seed": "8",  "Name": "Georgia",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/61.png" },
-  { "TeamID": 52, "Seed": "9",  "Name": "Saint Louis",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/139.png" },
-  { "TeamID": 53, "Seed": "5",  "Name": "Texas Tech",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2641.png" },
-  { "TeamID": 54, "Seed": "12", "Name": "Akron",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2006.png" },
-  { "TeamID": 55, "Seed": "4",  "Name": "Alabama",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/333.png" },
-  { "TeamID": 56, "Seed": "13", "Name": "Hofstra",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2275.png" },
-  { "TeamID": 57, "Seed": "6",  "Name": "Tennessee",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2633.png" },
-  { "TeamID": 58, "Seed": "11", "Name": "MIA/SMU",        "FirstFour": ["Miami OH", "SMU"] },
-  { "TeamID": 59, "Seed": "3",  "Name": "Virginia",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/258.png" },
-  { "TeamID": 60, "Seed": "14", "Name": "Wright St",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2750.png" },
-  { "TeamID": 61, "Seed": "7",  "Name": "Kentucky",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/96.png" },
-  { "TeamID": 62, "Seed": "10", "Name": "Santa Clara",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2172.png" },
-  { "TeamID": 63, "Seed": "2",  "Name": "Iowa State",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/66.png" },
-  { "TeamID": 64, "Seed": "15", "Name": "Tennessee St",   "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2635.png" },
- 
-  // ===== FIRST FOUR EXTRAS =====
-  { "TeamID": 65, "Seed": "16", "Name": "Prairie View AM","Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2504.png" },
-  { "TeamID": 66, "Seed": "16", "Name": "Lehigh",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2329.png" },
-  { "TeamID": 67, "Seed": "11", "Name": "Texas",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/251.png" },
-  { "TeamID": 68, "Seed": "11", "Name": "NC St",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/152.png" },
-  { "TeamID": 69, "Seed": "16", "Name": "UMBC",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2413.png" },
-  { "TeamID": 70, "Seed": "16", "Name": "Howard",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2430.png" },
-  { "TeamID": 71, "Seed": "11", "Name": "Miami OH",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/193.png" },
-  { "TeamID": 72, "Seed": "11", "Name": "SMU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2567.png" },
-]
   
-// TODO: https://teamcolorcodes.com/arkansas-razorbacks-color-codes/ ? team.ColorCodes
+  let teams = [
+   
+    // ===== EAST REGION (Duke 1-seed) =====
+    { "TeamID": 1,  "Seed": "1",  "Name": "Duke",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/150.png" },
+    { "TeamID": 2,  "Seed": "16", "Name": "Siena",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2561.png" },
+    { "TeamID": 3,  "Seed": "8",  "Name": "Ohio St",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/194.png" },
+    { "TeamID": 4,  "Seed": "9",  "Name": "TCU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2628.png" },
+    { "TeamID": 5,  "Seed": "5",  "Name": "St John's",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2599.png" },
+    { "TeamID": 6,  "Seed": "12", "Name": "Northern Iowa",  "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2271.png" },
+    { "TeamID": 7,  "Seed": "4",  "Name": "Kansas",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2305.png" },
+    { "TeamID": 8,  "Seed": "13", "Name": "Cal Baptist",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2856.png" },
+    { "TeamID": 9,  "Seed": "6",  "Name": "Louisville",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/97.png" },
+    { "TeamID": 10, "Seed": "11", "Name": "South Florida",  "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/58.png" },
+    { "TeamID": 11, "Seed": "3",  "Name": "Michigan St",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/127.png" },
+    { "TeamID": 12, "Seed": "14", "Name": "North Dakota St","Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2449.png" },
+    { "TeamID": 13, "Seed": "7",  "Name": "UCLA",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/26.png" },
+    { "TeamID": 14, "Seed": "10", "Name": "UCF",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2116.png" },
+    { "TeamID": 15, "Seed": "2",  "Name": "UConn",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/41.png" },
+    { "TeamID": 16, "Seed": "15", "Name": "Furman",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/231.png" },
+   
+    // ===== SOUTH REGION (Florida 1-seed) =====
+    { "TeamID": 17, "Seed": "1",  "Name": "Florida",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/57.png" },
+    { "TeamID": 18, "Seed": "16", "Name": "PVA/LEH",        "FirstFour": ["Prairie View AM", "Lehigh"] },
+    { "TeamID": 19, "Seed": "8",  "Name": "Clemson",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/228.png" },
+    { "TeamID": 20, "Seed": "9",  "Name": "Iowa",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2294.png" },
+    { "TeamID": 21, "Seed": "5",  "Name": "Vanderbilt",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/238.png" },
+    { "TeamID": 22, "Seed": "12", "Name": "McNeese",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2377.png" },
+    { "TeamID": 23, "Seed": "4",  "Name": "Nebraska",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/158.png" },
+    { "TeamID": 24, "Seed": "13", "Name": "Troy",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2653.png" },
+    { "TeamID": 25, "Seed": "6",  "Name": "North Carolina", "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/153.png" },
+    { "TeamID": 26, "Seed": "11", "Name": "VCU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2670.png" },
+    { "TeamID": 27, "Seed": "3",  "Name": "Illinois",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/356.png" },
+    { "TeamID": 28, "Seed": "14", "Name": "Penn",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/219.png" },
+    { "TeamID": 29, "Seed": "7",  "Name": "Saint Mary's",   "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2608.png" },
+    { "TeamID": 30, "Seed": "10", "Name": "Texas A&M",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/245.png" },
+    { "TeamID": 31, "Seed": "2",  "Name": "Houston",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/248.png" },
+    { "TeamID": 32, "Seed": "15", "Name": "Idaho",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/70.png" },
+   
+    // ===== WEST REGION (Arizona 1-seed) =====
+    { "TeamID": 33, "Seed": "1",  "Name": "Arizona",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/12.png" },
+    { "TeamID": 34, "Seed": "16", "Name": "LIU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2335.png" },
+    { "TeamID": 35, "Seed": "8",  "Name": "Villanova",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/222.png" },
+    { "TeamID": 36, "Seed": "9",  "Name": "Utah State",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/328.png" },
+    { "TeamID": 37, "Seed": "5",  "Name": "Wisconsin",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/275.png" },
+    { "TeamID": 38, "Seed": "12", "Name": "High Point",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2272.png" },
+    { "TeamID": 39, "Seed": "4",  "Name": "Arkansas",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/8.png" },
+    { "TeamID": 40, "Seed": "13", "Name": "Hawaii",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/62.png" },
+    { "TeamID": 41, "Seed": "6",  "Name": "BYU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/252.png" },
+    { "TeamID": 42, "Seed": "11", "Name": "TEX/NCST",       "FirstFour": ["Texas", "NC St"] },
+    { "TeamID": 43, "Seed": "3",  "Name": "Gonzaga",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2250.png" },
+    { "TeamID": 44, "Seed": "14", "Name": "Kennesaw St",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2309.png" },
+    { "TeamID": 45, "Seed": "7",  "Name": "Miami",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2390.png" },
+    { "TeamID": 46, "Seed": "10", "Name": "Missouri",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/142.png" },
+    { "TeamID": 47, "Seed": "2",  "Name": "Purdue",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2509.png" },
+    { "TeamID": 48, "Seed": "15", "Name": "Queens",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/3108.png" },
+   
+    // ===== MIDWEST REGION (Michigan 1-seed) =====
+    { "TeamID": 49, "Seed": "1",  "Name": "Michigan",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/130.png" },
+    { "TeamID": 50, "Seed": "16", "Name": "UMBC/HOW",       "FirstFour": ["UMBC", "Howard"] },
+    { "TeamID": 51, "Seed": "8",  "Name": "Georgia",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/61.png" },
+    { "TeamID": 52, "Seed": "9",  "Name": "Saint Louis",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/139.png" },
+    { "TeamID": 53, "Seed": "5",  "Name": "Texas Tech",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2641.png" },
+    { "TeamID": 54, "Seed": "12", "Name": "Akron",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2006.png" },
+    { "TeamID": 55, "Seed": "4",  "Name": "Alabama",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/333.png" },
+    { "TeamID": 56, "Seed": "13", "Name": "Hofstra",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2275.png" },
+    { "TeamID": 57, "Seed": "6",  "Name": "Tennessee",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2633.png" },
+    { "TeamID": 58, "Seed": "11", "Name": "MIA/SMU",        "FirstFour": ["Miami OH", "SMU"] },
+    { "TeamID": 59, "Seed": "3",  "Name": "Virginia",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/258.png" },
+    { "TeamID": 60, "Seed": "14", "Name": "Wright St",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2750.png" },
+    { "TeamID": 61, "Seed": "7",  "Name": "Kentucky",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/96.png" },
+    { "TeamID": 62, "Seed": "10", "Name": "Santa Clara",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2172.png" },
+    { "TeamID": 63, "Seed": "2",  "Name": "Iowa State",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/66.png" },
+    { "TeamID": 64, "Seed": "15", "Name": "Tennessee St",   "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2635.png" },
+   
+    // ===== FIRST FOUR EXTRAS =====
+    { "TeamID": 65, "Seed": "16", "Name": "Prairie View AM","Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2504.png" },
+    { "TeamID": 66, "Seed": "16", "Name": "Lehigh",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2329.png" },
+    { "TeamID": 67, "Seed": "11", "Name": "Texas",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/251.png" },
+    { "TeamID": 68, "Seed": "11", "Name": "NC St",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/152.png" },
+    { "TeamID": 69, "Seed": "16", "Name": "UMBC",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2413.png" },
+    { "TeamID": 70, "Seed": "16", "Name": "Howard",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2430.png" },
+    { "TeamID": 71, "Seed": "11", "Name": "Miami OH",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/193.png" },
+    { "TeamID": 72, "Seed": "11", "Name": "SMU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2567.png" },
+  ]
+  
+  // TODO: https://teamcolorcodes.com/arkansas-razorbacks-color-codes/ ? team.ColorCodes
   for (var i = 0; i < teams.length; i++) {
     var team = teams[i];
     switch (team.Name) {
@@ -1642,7 +1642,9 @@ let teams = [
       //   team.MascotImage = "";
       //   break;
 
-    }
-    
-    return teams;
+    } // end switch
+  
+  } // end for loop
+  
+  return teams;
 }
