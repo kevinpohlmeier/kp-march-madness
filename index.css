@@ -8,6 +8,12 @@
   user-select: none;
 }
 
+img {
+  /* prevent mouse dragging on images */
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
 html, body {
   overscroll-behavior: none; // prevent pull-to-refresh
 }
