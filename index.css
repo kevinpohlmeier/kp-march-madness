@@ -11,6 +11,15 @@ html, body {
   font-weight: bold;
 }
 
+.color-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
 #round-number-wrapper {
   width: 74%;
 }
