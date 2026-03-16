@@ -18,11 +18,12 @@
 
 
 // TODO: display First Four options
-// TODO: help prevent double tap to accidentally pick next team
 // TODO: help prevent long press image download popup, text selection, etc
 
 games = new Array(32+16+8+4+2+1); 
 gameIndex = 0;
+var selectionCooldown = false;
+var selectionCooldownTimer = null;
 
 window.onload = function() {
   var teams = getTeams();
@@ -301,6 +302,11 @@ function backToStart() {
 }
 
 function selectWinner(teamIndex) {
+  if (selectionCooldown) return;
+  selectionCooldown = true;
+  clearTimeout(selectionCooldownTimer);
+  selectionCooldownTimer = setTimeout(function() { selectionCooldown = false; }, 500);
+
   var checks = document.querySelectorAll(".selected-winner");
   checks[0].style.display = "none";
   checks[1].style.display = "none";
