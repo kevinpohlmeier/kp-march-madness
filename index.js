@@ -17,7 +17,6 @@
 
 
 
-// TODO: display First Four options
 // TODO: help prevent double tap to accidentally pick next team
 // TODO: help prevent long press image download popup, text selection, etc
 
@@ -123,40 +122,66 @@ function displayTeam(team, number) {
   if (!team) {
     team = {};
   }
-  let undecidedMessage = "";
-  if (team.Name.includes("/")){
-    // Multiple teams possible, not decided until they play each other
-    undecidedMessage = team.Name.split("/")[0] + " will play " + team.Name.split("/")[1]
-      + " to determine who gets this spot";
-  } else if (team.MascotName === "N/A") {
-    undecidedMessage = "This team does not have a mascot";
-  }
-  
+
   var container = document.querySelector(".team" + number);
-  container.querySelector(".name").innerText = team.Name + " (" + team.Seed + " Seed)";
-  var colorsEl = container.querySelector(".colors");
-  colorsEl.replaceChildren();
-  if (team.ColorCodes){
-    team.ColorCodes.forEach(function(colorEntry, i) {
-      var swatch = document.createElement("span");
-      swatch.className = "color-swatch";
-      swatch.style.backgroundColor = colorEntry[1];
-      colorsEl.appendChild(swatch);
-      colorsEl.appendChild(document.createTextNode(colorEntry[0]));
-      if (i < team.ColorCodes.length - 1) {
-        colorsEl.appendChild(document.createTextNode(", "));
-      }
-    });
+  container.querySelector(".name").innerText = (team.Name || "") + " (" + (team.Seed || "") + " Seed)";
+
+  var firstFourDisplay = container.querySelector(".first-four-display");
+  var teamDetailRows = container.querySelectorAll(".team-detail-row");
+
+  if (team.FirstFour) {
+    // First Four mode: show split display with both competing teams, hide regular detail rows
+    firstFourDisplay.style.display = "block";
+    container.querySelector(".logo-image").style.display = "none";
+    for (var i = 0; i < teamDetailRows.length; i++) {
+      teamDetailRows[i].style.display = "none";
+    }
+
+    var ffTeamDivs = container.querySelectorAll(".ff-team");
+    for (var j = 0; j < Math.min(2, team.FirstFour.length); j++) {
+      var ffTeamObj = { Name: team.FirstFour[j] };
+      getTeamDetails(ffTeamObj);
+      ffTeamDivs[j].querySelector(".ff-name").innerText = team.FirstFour[j];
+      ffTeamDivs[j].querySelector(".ff-logo-image").src = ffTeamObj.Logo || _blankImage;
+      ffTeamDivs[j].querySelector(".ff-mascot-image").src = ffTeamObj.MascotImage || _blankImage;
+    }
   } else {
-    colorsEl.innerText = team.TeamColors || "??";
+    // Regular mode: hide split display, show regular detail rows
+    firstFourDisplay.style.display = "none";
+    container.querySelector(".logo-image").style.display = "";
+    for (var i = 0; i < teamDetailRows.length; i++) {
+      teamDetailRows[i].style.display = "";
+    }
+
+    let undecidedMessage = "";
+    if (team.MascotName === "N/A") {
+      undecidedMessage = "This team does not have a mascot";
+    }
+
+    var colorsEl = container.querySelector(".colors");
+    colorsEl.replaceChildren();
+    if (team.ColorCodes){
+      team.ColorCodes.forEach(function(colorEntry, i) {
+        var swatch = document.createElement("span");
+        swatch.className = "color-swatch";
+        swatch.style.backgroundColor = colorEntry[1];
+        colorsEl.appendChild(swatch);
+        colorsEl.appendChild(document.createTextNode(colorEntry[0]));
+        if (i < team.ColorCodes.length - 1) {
+          colorsEl.appendChild(document.createTextNode(", "));
+        }
+      });
+    } else {
+      colorsEl.innerText = team.TeamColors || "??";
+    }
+    container.querySelector(".mascot").innerText = team.TeamMascot || "??";
+    container.querySelector(".mascot-name").innerText = team.MascotName || "??";
+    container.querySelector(".mascot-image").src = "";
+    container.querySelector(".mascot-image").src = team.MascotImage || _blankImage;
+    container.querySelector(".logo-image").src = "";
+    container.querySelector(".logo-image").src = team.Logo || _blankImage;
+    container.querySelector(".undecided-message").innerText = undecidedMessage;
   }
-  container.querySelector(".mascot").innerText = team.TeamMascot || "??";
-  container.querySelector(".mascot-name").innerText = team.MascotName || "??";
-  container.querySelector(".mascot-image").src = "";
-  container.querySelector(".mascot-image").src = team.MascotImage || _blankImage;
-  container.querySelector(".logo-image").src = "";
-  container.querySelector(".logo-image").src = team.Logo || _blankImage; 
-  container.querySelector(".undecided-message").innerText = undecidedMessage; 
 }
 
 
