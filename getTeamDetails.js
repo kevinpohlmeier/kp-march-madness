@@ -364,7 +364,7 @@ function getTeamDetails(team) {
 
       case "Kennesaw St":
       case "Kennesaw State":
-        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/338.png";
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/338.png";
         team.TeamMascot = "Owls";
         team.MascotName = "Scrappy the Owl";
         team.ColorCodes = [["Black", "#000000"], ["Gold", "#C5A028"]];
@@ -410,7 +410,7 @@ function getTeamDetails(team) {
         break;
 
       case "LIU":
-        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/112358.png";
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/112358.png";
         team.TeamMascot = "Sharks";
         team.MascotName = "Vin the Shark";
         team.ColorCodes = [["Blue", "#003082"], ["Gold", "#C5A028"]];
@@ -653,7 +653,7 @@ function getTeamDetails(team) {
         break;
  
       case "Northern Iowa":
-        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2460.png";
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2460.png";
         team.TeamMascot = "Panthers";
         team.MascotName = "TC the Panther";
         team.ColorCodes = [["Purple", "#4B116F"], ["Gold", "#FFCD00"]];
@@ -773,7 +773,7 @@ function getTeamDetails(team) {
         break;
 
       case "Queens":
-        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2511.png";
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2511.png";
         team.TeamMascot = "Royals";
         team.MascotName = "Royal";
         team.ColorCodes = [["Royal Blue", "#003082"], ["Gold", "#C5A028"]];
@@ -810,7 +810,7 @@ function getTeamDetails(team) {
         break;
  
       case "Santa Clara":
-        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2541.png";
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2541.png";
         team.TeamMascot = "Broncos";
         team.MascotName = "The Bronco";
         team.ColorCodes = [["Red", "#862633"], ["White", "#FFFFFF"]];
@@ -949,7 +949,7 @@ function getTeamDetails(team) {
 
       case "Tennessee St":
       case "Tennessee State":
-        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2634.png";
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2634.png";
         team.TeamMascot = "Tigers";
         team.MascotName = "Aristocat the Tiger";
         team.ColorCodes = [["Blue", "#003082"], ["White", "#FFFFFF"]];
