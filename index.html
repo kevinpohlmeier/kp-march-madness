@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ESPN Bracket Helper</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <!-- <img src="" id="img-tester" style="display: none;" onerror="onImageError(this);"> -->
+    <img src="" id="img-tester" style="display: none;">
+    <div id="game-wrapper">
+      <div id="round-number-wrapper">
+        <h3 id="round-number">Round 1</h3>
+        <label>Tap a team to select them as winner</label>
+      </div>
+      <div class="team team1" onclick="selectWinner(0);">
+        <div>
+          <span class="label">Name:</span>
+          <span class="name"></span>
+        </div>
+        <div>
+          <span class="label">Colors:</span>
+          <span class="colors"></span>
+        </div>
+        <div>
+          <span class="label">Mascot:</span>
+          <span class="mascot"></span>
+        </div>
+        <div>
+          <img src="" class="logo-image">
+          <span class="selected-winner">✅</span> 
+        </div>
+        <div>
+          <span class="label">Mascot Name:</span>
+          <span class="mascot-name"></span>
+        </div>
+        <div>
+          <img src="" class="mascot-image">
+          <label class="undecided-message"></label>
+        </div>
+      </div>
+      <div class="vs">VS:</div>
+      <div class="team team2" onclick="selectWinner(1);"> 
+        <div>
+          <span class="label">Name:</span>
+          <span class="name"></span>
+        </div>
+        <div>
+          <span class="label">Colors:</span>
+          <span class="colors"></span>
+        </div>
+        <div>
+          <span class="label">Mascot:</span>
+          <span class="mascot"></span>
+        </div>
+        <div>
+          <img src="" class="logo-image">
+          <span class="selected-winner">✅</span>
+        </div>
+        <div>
+          <span class="label">Mascot Name:</span>
+          <span class="mascot-name"></span>
+        </div>
+        <div>
+          <img src="" class="mascot-image">
+          <label class="undecided-message"></label>
+        </div> 
+      </div> 
+    </div>
+    <div class="sidebar">
+      <div class="navigation-buttons">
+        <input id="previous-button" type="button" value=" < Previous" onclick="movePrevious();">
+        <input id="next-button" type="button" value="Next >" onclick="moveNext();">
+      </div>
+      <div class="score-section">
+        <label>Tie-Breaker: How many total points will be scored in the Championship Game?</label>
+        <div class="score1-wrapper">
+          <!-- <label for="score1">Score 1:</label> -->
+          <input id="score1" type="number" value="">
+        </div>
+        <!--    <div class="score2-wrapper">
+<label for="score2">Score 2:</label>
+<input id="score2" type="number" value="">
+</div> -->
+        <!-- <input id="back-to-start" type="button" value="Back to Start" onclick="backToStart();"> -->
+      </div>
+      <div class="espn-section">
+        <!-- ESPN requires a POST for creation now -->
+        <div style="display: none;">
+          <input type="radio" id="new-bracket" name="bracket-type" value="new" onchange="onTypeChange();" checked="checked">
+          <label for="new-bracket">Add New Bracket</label>
+          <br>
+          <input type="radio" id="existing-bracket" name="bracket-type" value="existing" onchange="onTypeChange();">
+          <label for="existing-bracket">Update Existing Bracket</label>
+          <br>
+
+          <div id="update-bracket-section">
+            <label>Find entryID in URL of your bracket on ESPN</label>
+            <br>
+            <label for="bracket-id">entryID:</label>
+            <input id="bracket-id" type="number" value="0" >  
+          </div>
+
+          <h4 class="warning-label">
+            Be sure that you have logged into ESPN before submitting!! 
+            You can open another tab and log in if needed.
+            <br>
+            After submitting, you will also still need to manually 
+            name your bracket using the gear icon and add it to the group.
+          </h4>
+          <input id="submit-espn" type="submit" value="Submit ESPN Bracket" onclick=submitEspnBracket(); disabled="disabled">
+        </div>
+
+        <div class="bracket-section">
+          <div class="col-xs-12 top-bracket">
+            <span class="region">South</span>
+            <span class="col-xs-2" data-section-order="1"  style="margin-top: 0;"></span>
+            <span class="col-xs-2" data-section-order="5"  style="margin-top: 50px;"></span>
+            <span class="col-xs-2" data-section-order="9"  style="margin-top: 100px;"></span>
+            <span class="col-xs-2" data-section-order="13" style="margin-top: 145px;"></span>
+          </div>
+          <div class="col-xs-12 top-bracket">
+            <span class="region">West</span>
+            <span class="col-xs-2" data-section-order="2"  style="margin-top: 0;"></span>
+            <span class="col-xs-2" data-section-order="6"  style="margin-top: 35px;"></span>
+            <span class="col-xs-2" data-section-order="10" style="margin-top: 40px;"></span>
+            <span class="col-xs-2" data-section-order="14" style="margin-top: 35px;"></span>
+            <span class="col-xs-2" data-section-order="17" style="margin-top: 140px;"></span>
+            <span class="col-xs-2" data-section-order="19" style="margin-top: 170px;"></span>
+          </div>
+          <div class="col-xs-12 bottom-bracket">
+            <span class="region">East</span>
+            <span class="col-xs-2" data-section-order="3"  style="margin-top: 0;"></span>
+            <span class="col-xs-2" data-section-order="7"  style="margin-top: 10px;"></span>
+            <span class="col-xs-2" data-section-order="11" style="margin-top: 40px;"></span>
+            <span class="col-xs-2" data-section-order="15" style="margin-top: 85px;"></span>
+            <span class="col-xs-2" data-section-order="18" style="margin-top: 0px;"></span>
+          </div>
+          <div class="col-xs-12 bottom-bracket">
+            <span class="region">Midwest</span>
+            <span class="col-xs-2" data-section-order="4"  style="margin-top: 0;"></span>
+            <span class="col-xs-2" data-section-order="8"  style="margin-top: 0px;"></span>
+            <span class="col-xs-2" data-section-order="12" style="margin-top: 0px;"></span>
+            <span class="col-xs-2" data-section-order="16" style="margin-top: 0px;"></span>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </body>
+</html>
