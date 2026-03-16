@@ -421,7 +421,7 @@ function getTeams() {
     { "TeamID": 3,  "Seed": "8",  "Name": "Ohio St",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/194.png" },
     { "TeamID": 4,  "Seed": "9",  "Name": "TCU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2628.png" },
     { "TeamID": 5,  "Seed": "5",  "Name": "St John's",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2599.png" },
-    { "TeamID": 6,  "Seed": "12", "Name": "Northern Iowa",  "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2271.png" },
+    { "TeamID": 6,  "Seed": "12", "Name": "Northern Iowa",  "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2460.png" },
     { "TeamID": 7,  "Seed": "4",  "Name": "Kansas",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2305.png" },
     { "TeamID": 8,  "Seed": "13", "Name": "Cal Baptist",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2856.png" },
     { "TeamID": 9,  "Seed": "6",  "Name": "Louisville",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/97.png" },
@@ -463,7 +463,7 @@ function getTeams() {
     { "TeamID": 41, "Seed": "6",  "Name": "BYU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/252.png" },
     { "TeamID": 42, "Seed": "11", "Name": "TEX/NCST",       "FirstFour": ["Texas", "NC St"] },
     { "TeamID": 43, "Seed": "3",  "Name": "Gonzaga",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2250.png" },
-    { "TeamID": 44, "Seed": "14", "Name": "Kennesaw St",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2309.png" },
+    { "TeamID": 44, "Seed": "14", "Name": "Kennesaw St",    "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/338.png" },
     { "TeamID": 45, "Seed": "7",  "Name": "Miami",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2390.png" },
     { "TeamID": 46, "Seed": "10", "Name": "Missouri",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/142.png" },
     { "TeamID": 47, "Seed": "2",  "Name": "Purdue",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2509.png" },
@@ -485,7 +485,7 @@ function getTeams() {
     { "TeamID": 61, "Seed": "7",  "Name": "Kentucky",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/96.png" },
     { "TeamID": 62, "Seed": "10", "Name": "Santa Clara",    "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2541.png" },
     { "TeamID": 63, "Seed": "2",  "Name": "Iowa State",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/66.png" },
-    { "TeamID": 64, "Seed": "15", "Name": "Tennessee St",   "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2635.png" },
+    { "TeamID": 64, "Seed": "15", "Name": "Tennessee St",   "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2634.png" },
    
     // ===== FIRST FOUR EXTRAS =====
     { "TeamID": 65, "Seed": "16", "Name": "Prairie View AM","Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2504.png" },
