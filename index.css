@@ -1,0 +1,180 @@
+* {
+  /* prevent double-tap to zoom */ 
+  touch-action: manipulation;
+}
+
+html, body {
+  overscroll-behavior: none; // prevent pull-to-refresh
+}
+
+.label {
+  font-weight: bold;
+}
+
+#round-number-wrapper {
+  width: 74%;
+}
+#round-number {
+  text-align: center;
+}
+
+.mascot-image { 
+  max-height: 40vh;
+  max-width: 32vw;
+}
+
+.logo-image {
+  height: 15vw; 
+}
+
+.team {
+  border: 1px solid black;
+  width: 35vw;
+  height: 80vh;
+  float:left; 
+  padding: 1vh;
+  background: darkgray;
+}
+
+.team2 {
+  /* margin-right: 5px; */
+  margin-left: 5px;
+}
+
+.vs {
+  display: none;
+  float: left;
+  padding: 1vw;
+  padding-top: 33vh;
+  font-size: 5vw;
+  width: 8vw;
+}
+
+.selected-winner {
+  display: none;
+  font-size: 10vmax;
+  float: right; 
+}
+
+body {
+  /* font-size:4em; */ 
+  background: lightgray;
+}
+
+.sidebar {
+  /* width: 20%; */
+  float: left;
+} 
+
+.sidebar * {
+} 
+
+.navigation-buttons { 
+  /* padding-top: 10vh; */
+  padding-left: 5px;
+}
+.navigation-buttons input {
+  font-size: 85%;
+  width: 15vmax;
+  height: 15vmax;
+  /* float: left; */
+  margin: 5px;
+}
+
+.score-section {
+  margin-bottom: 3vh;
+}
+.espn-section, .score-section {
+  margin-top: 7vh; 
+  margin-bottom: 3vh;
+}
+
+#update-bracket-section {
+  margin-top: 10px; 
+  display: none;
+}
+
+#bracket-id {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#submit-espn {
+  margin-top: 10px;
+}
+
+.warning-label {
+  color: red;
+}
+
+.undecided-message {
+  top: 10vh;
+  position: relative;
+  /* font-size: xx-large; */
+}
+
+.team {
+  /* display:none; */ 
+}
+
+.region {
+  position: absolute;
+  transform: rotate(-90deg);
+  left: -5px;
+  top: 50%;
+}
+.bracket-section > div {
+  padding-top: 10px;
+}
+.bracket-section > div div {
+  border-bottom: 1px solid;
+}
+.bracket-section > div > span:nth-child(2) {
+  border-bottom: 3px solid;
+}
+.bracket-section > div.top-bracket > span:nth-child(2) {
+  margin-top: 50px;
+}
+.bracket-section > div.top-bracket > span:nth-child(3) {
+  margin-top: 80px;
+}
+.bracket-section > div.top-bracket > span:nth-child(4) {
+  margin-top: 110px;
+}
+.bracket-section > div.bottom-bracket > span:nth-child(2) {
+  margin-top: -15px;
+}
+.bracket-section > div.bottom-bracket > span:nth-child(3) {
+  margin-top: -30px;
+}
+.bracket-section > div.bottom-bracket > span:nth-child(4) {
+  margin-top: -45px;
+}
+.bracket-section > div > span:nth-child(5) {
+  margin-top: 140px;
+}
+.bracket-section > div > span:nth-child(6) {
+  margin-top: 170px;
+}
+
+@media (orientation: portrait) {
+  /* @media (max-width: 650px) { */
+
+  /* make the team boxes shorter and put the buttons at the bottom */
+  .team {
+    width: 40vw;
+    height: 55vh;
+  }
+
+  .sidebar {
+    width: 90vw;
+  }
+  .navigation-buttons input {
+    float: left;
+  }
+
+  .mascot-image { 
+    max-height: 20vh;
+  }
+
+}
