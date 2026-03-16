@@ -505,42 +505,56 @@ let teams = [
       case "Akron":
         team.TeamMascot = "Zips";
         team.MascotName = "Zippy the Kangaroo";
-        team.TeamColors = "Blue and Gold";
+        team.ColorCodes = [["Blue", "#041E42"], ["Gold", "#B3A369"]];
         team.MascotImage = "https://tinyurl.com/mtum3d5x";
         break;
 
       case "Alabama":
-        team.TeamMascot = "Crimson Tide ";
+        team.TeamMascot = "Crimson Tide";
         team.MascotName = "Big Al";
-        team.TeamColors = "Crimson and white";
+        team.ColorCodes = [["Crimson", "#9E1B32"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/3ab4fhy9";
         break;
 
-      case "Arkansas":
-        team.TeamMascot = "Razorbacks";
-        team.MascotName = "Tusk IV";
-        team.TeamColors = "Cardinal and white";
-        team.MascotImage = "https://tinyurl.com/yc6fjyb9";
+      case "Alabama St":
+        team.TeamMascot = "Hornets";
+        team.MascotName = "Stinger";
+        team.ColorCodes = [["Old Gold", "#C99700"], ["Black", "#000000"]];
+        team.MascotImage = "https://tinyurl.com/mryreruc";
+        break;
+
+      case "American":
+        team.TeamMascot = "Eagles";
+        team.MascotName = "Clawed Z";
+        team.ColorCodes = [["Blue", "#143d8d"], ["Red", "#c41230"], ["White", "#ffffff"]];
+        team.MascotImage = "https://tinyurl.com/4brj4be5";
         break;
 
       case "Arizona":
         team.TeamMascot = "Wildcats";
         team.MascotName = "Wilbur and Wilma";
-        team.TeamColors = "UA Red and Arizona Blue";
+        team.ColorCodes = [["Cardinal Red", "#CC0033"], ["Navy", "#003366"]];
         team.MascotImage = "https://tinyurl.com/yc6p3ym8";
+        break;
+
+      case "Arkansas":
+        team.TeamMascot = "Razorbacks";
+        team.MascotName = "Tusk IV";
+        team.ColorCodes = [["Cardinal", "#9D2235"], ["White", "#FFFFFF"]];
+        team.MascotImage = "https://tinyurl.com/yc6fjyb9";
         break;
 
       case "Auburn":
         team.TeamMascot = "Tigers";
         team.MascotName = "Aubie the Tiger";
-        team.TeamColors = "Burnt orange and navy blue";
+        team.ColorCodes = [["Auburn Blue", "#0C2340"], ["Auburn Orange", "#E87722"]];
         team.MascotImage = "https://tinyurl.com/4tm7tthn";
         break;
 
       case "Baylor":
         team.TeamMascot = "Bears";
         team.MascotName = "Bruiser & Marygold";
-        team.TeamColors = "Green and gold";
+        team.ColorCodes = [["Baylor Green", "#154734"], ["Baylor Gold", "#FFB81C"]];
         team.MascotImage = "https://tinyurl.com/mr2hvnbv";
         break;
 
@@ -548,50 +562,50 @@ let teams = [
       case "Boise State":
         team.TeamMascot = "Broncos";
         team.MascotName = "Buster Bronco";
-        team.TeamColors = "Orange and blue";
+        team.ColorCodes = [["Blue", "#0033A0"], ["Orange", "#D64309"]];
         team.MascotImage = "https://tinyurl.com/2jc3kpa4";
+        break;
+
+      case "Brigham Young University":
+      case "BYU":
+        team.TeamMascot = "Cougars";
+        team.MascotName = "Cosmo the Cougar";
+        team.ColorCodes = [["Royal Blue", "#002E5D"], ["White", "#FFFFFF"]];
+        team.MascotImage = "https://tinyurl.com/553juupj";
         break;
 
       case "Bryant":
         team.TeamMascot = "Bulldogs";
         team.MascotName = "Tupper";
-        team.TeamColors = "Black and gold";
+        team.ColorCodes = [["Black", "#000000"], ["Gold", "#B59A57"]];
         team.MascotImage = "https://tinyurl.com/59hh3bft";
-        break;
-
-      case "BYU":
-      case "Brigham Young University":
-        team.TeamMascot = "Cougars";
-        team.MascotName = "Cosmo the Cougar";
-        team.TeamColors = "White and Blue";
-        team.MascotImage = "https://tinyurl.com/553juupj";
         break;
 
       case "Charleston":
         team.TeamMascot = "Cougars";
         team.MascotName = "Clyde the Cougar";
-        team.TeamColors = "Maroon and white";
+        team.ColorCodes = [["Maroon", "#6B0C27"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/3w8bjsvd";
         break;
 
       case "Chattanooga":
         team.TeamMascot = "Mocs";
         team.MascotName = "Scrappy the Mockingbird";
-        team.TeamColors = "Navy and gold";
+        team.ColorCodes = [["Navy", "#00204E"], ["Gold", "#E0A829"]];
         team.MascotImage = "https://tinyurl.com/bdtzxkja";
         break;
 
       case "Clemson":
         team.TeamMascot = "Tigers";
         team.MascotName = "The Tiger";
-        team.TeamColors = "White, Orange, and Purple";
+        team.ColorCodes = [["Clemson Orange", "#F66733"], ["Purple", "#522D80"]];
         team.MascotImage = "https://tinyurl.com/yjb3cs3s";
         break;
 
       case "Colgate":
         team.TeamMascot = "Raiders";
         team.MascotName = "Raider";
-        team.TeamColors = "Maroon and white";
+        team.ColorCodes = [["Maroon", "#821019"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/52ajch2n";
         break;
 
@@ -599,63 +613,63 @@ let teams = [
       case "Colorado State":
         team.TeamMascot = "Rams";
         team.MascotName = "CAM the Ram";
-        team.TeamColors = "Green, gold, white";
+        team.ColorCodes = [["Green", "#1E4D2B"], ["Gold", "#C8C372"]];
         team.MascotImage = "https://tinyurl.com/msfdfpwc";
         break;
 
       case "Creighton":
-        team.TeamMascot = "Bluejays ";
+        team.TeamMascot = "Bluejays";
         team.MascotName = "Billy Bluejay";
-        team.TeamColors = "White, blue";
+        team.ColorCodes = [["Blue", "#005CA9"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/43h37jbb";
         break;
 
       case "CSU Fullerton":
         team.TeamMascot = "Titans";
         team.MascotName = "Tuffy the Titan";
-        team.TeamColors = "Navy blue, white and orange";
+        team.ColorCodes = [["Navy Blue", "#00274C"], ["Orange", "#FF6600"]];
         team.MascotImage = "https://tinyurl.com/w6hcvbzx";
         break;
 
       case "Davidson":
         team.TeamMascot = "Wildcats";
         team.MascotName = "Will E. Wildcat";
-        team.TeamColors = "Black and red";
+        team.ColorCodes = [["Red", "#CC0000"], ["Black", "#000000"]];
         team.MascotImage = "https://tinyurl.com/4ehk9u3u";
         break;
 
       case "Dayton":
         team.TeamMascot = "Flyers";
         team.MascotName = "Rudy Flyer";
-        team.TeamColors = "Red and Blue";
+        team.ColorCodes = [["Red", "#CE1141"], ["Blue", "#004B8D"]];
         team.MascotImage = "https://tinyurl.com/yswwmu3c";
         break;
 
       case "Delaware":
         team.TeamMascot = "Blue Hens";
         team.MascotName = "YoUDee";
-        team.TeamColors = "Blue and gold";
+        team.ColorCodes = [["Blue", "#00539F"], ["Gold", "#FFD200"]];
         team.MascotImage = "https://tinyurl.com/4n7e2rs5";
         break;
 
       case "Drake":
-        team.TeamMascot = "Drake Bulldogs";
+        team.TeamMascot = "Bulldogs";
         team.MascotName = "Spike";
-        team.TeamColors = "Drake blue, black and white";
+        team.ColorCodes = [["Drake Blue", "#004477"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/5eunwfsm";
         break;
 
       case "Duke":
         team.TeamMascot = "Blue Devils";
         team.MascotName = "Blue Devil";
-        team.TeamColors = "Duke blue and white";
+        team.ColorCodes = [["Duke Blue", "#003087"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/yckfu6ts";
         break;
 
       case "Duquesne":
         team.TeamMascot = "Dukes";
         team.MascotName = "Duke";
-        team.TeamColors = "Blue and Red";
+        team.ColorCodes = [["Blue", "#041E42"], ["Red", "#BA0C2F"]];
         team.MascotImage = "https://tinyurl.com/3xwzyrsh";
         break;
 
@@ -663,85 +677,99 @@ let teams = [
       case "Florida Atlantic":
         team.TeamMascot = "Owls";
         team.MascotName = "Owlsley and Hoot";
-        team.TeamColors = "Blue and red";
+        team.ColorCodes = [["Blue", "#003366"], ["Red", "#CC0000"]];
         team.MascotImage = "https://tinyurl.com/jdt9n2v6";
         break;
 
       case "Florida":
         team.TeamMascot = "Gators";
         team.MascotName = "Albert and Alberta Gator";
-        team.TeamColors = "Orange and Blue";
+        team.ColorCodes = [["Florida Orange", "#FA4616"], ["Florida Blue", "#0021A5"]];
         team.MascotImage = "https://tinyurl.com/yeypdjbt";
         break;
 
       case "Furman":
         team.TeamMascot = "Paladins";
         team.MascotName = "Victor the Paladin";
-        team.TeamColors = "Royal, purple and white";
+        team.ColorCodes = [["Purple", "#582C83"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/bdzny2u5";
+        break;
+
+      case "Georgia":
+        team.TeamMascot = "Bulldogs";
+        team.MascotName = "Uga";
+        team.ColorCodes = [["Bulldog Red", "#BA0C2F"], ["Arch Black", "#000000"]];
+        team.MascotImage = "https://tinyurl.com/bdd976mr";
         break;
 
       case "Georgia St":
       case "Georgia State":
         team.TeamMascot = "Panthers";
         team.MascotName = "Pounce";
-        team.TeamColors = "Blue and white";
+        team.ColorCodes = [["Blue", "#0039A6"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/4jpnk47a";
         break;
 
       case "Gonzaga":
         team.TeamMascot = "Bulldogs";
         team.MascotName = "Spike the Bulldog";
-        team.TeamColors = "Blue and white";
+        team.ColorCodes = [["Navy Blue", "#002469"], ["Red", "#CE1126"]];
         team.MascotImage = "https://tinyurl.com/mb6t44u4";
         break;
 
       case "Grand Canyon":
         team.TeamMascot = "Antelopes";
         team.MascotName = "Thunder the Antelope";
-        team.TeamColors = "Purple, black and white";
+        team.ColorCodes = [["Purple", "#522398"], ["Black", "#000000"]];
         team.MascotImage = "https://tinyurl.com/nhf4deev";
+        break;
+
+      case "High Point":
+        team.TeamMascot = "Panthers";
+        team.MascotName = "Prowler the Panther";
+        team.ColorCodes = [["Royal Purple", "#330072"], ["White", "#FFFFFF"]];
+        team.MascotImage = "https://tinyurl.com/2yxkzved";
         break;
 
       case "Houston":
         team.TeamMascot = "Cougars";
         team.MascotName = "Shasta and Sasha";
-        team.TeamColors = "Scarlet and albino";
+        team.ColorCodes = [["Scarlet", "#CC0000"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/4mmczkyf";
         break;
 
       case "Howard":
         team.TeamMascot = "Bison";
         team.MascotName = "Big Blue and Lady Blue";
-        team.TeamColors = "Navy blue and white";
+        team.ColorCodes = [["Navy Blue", "#003A63"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/29y4hcee";
         break;
 
       case "Illinois":
         team.TeamMascot = "Fighting Illini";
         team.MascotName = "N/A";
-        team.TeamColors = "Orange, blue";
+        team.ColorCodes = [["Illini Orange", "#E84A27"], ["Navy Blue", "#13294B"]];
         team.MascotImage = "";
         break;
 
       case "Indiana":
         team.TeamMascot = "Hoosiers";
         team.MascotName = "N/A";
-        team.TeamColors = "Cream and Crimson";
+        team.ColorCodes = [["Crimson", "#990000"], ["Cream", "#F2EFE4"]];
         team.MascotImage = "";
         break;
 
       case "Iona":
         team.TeamMascot = "Gaels";
         team.MascotName = "Killian the Gael";
-        team.TeamColors = "Maroon and gold";
+        team.ColorCodes = [["Maroon", "#8B0000"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/5em7d24t";
         break;
 
       case "Iowa":
         team.TeamMascot = "Hawkeyes";
         team.MascotName = "Herky the Hawk";
-        team.TeamColors = "Black and gold";
+        team.ColorCodes = [["Black", "#000000"], ["Gold", "#FFCD00"]];
         team.MascotImage = "https://tinyurl.com/4uzjsse7";
         break;
 
@@ -749,14 +777,14 @@ let teams = [
       case "Iowa State":
         team.TeamMascot = "Cyclones";
         team.MascotName = "Cy the Cardinal";
-        team.TeamColors = "Cardinal and gold";
+        team.ColorCodes = [["Cardinal", "#C8102E"], ["Gold", "#F1BE48"]];
         team.MascotImage = "https://tinyurl.com/bw9mbj72";
         break;
 
       case "James Madison":
         team.TeamMascot = "Dukes";
         team.MascotName = "Duke Dog";
-        team.TeamColors = "Purple and gold";
+        team.ColorCodes = [["Purple", "#450084"], ["Gold", "#CAA84A"]];
         team.MascotImage = "https://tinyurl.com/mrxxwnjz";
         break;
 
@@ -764,14 +792,14 @@ let teams = [
       case "J'Ville State":
         team.TeamMascot = "Gamecocks";
         team.MascotName = "Cocky the Gamecock";
-        team.TeamColors = "Red and white";
+        team.ColorCodes = [["Red", "#CC0000"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/5c9vkpxc";
         break;
 
       case "Kansas":
         team.TeamMascot = "Jayhawks";
         team.MascotName = "Big Jay and Baby Jay";
-        team.TeamColors = "Crimson and blue";
+        team.ColorCodes = [["Blue", "#0051A5"], ["Crimson", "#E8000D"]];
         team.MascotImage = "https://theheismanwinners.com/wp-content/uploads/kansas.jpg";
         break;
 
@@ -779,7 +807,7 @@ let teams = [
       case "Kansas State":
         team.TeamMascot = "Wildcats";
         team.MascotName = "Willie the Wildcat";
-        team.TeamColors = "Royal purple";
+        team.ColorCodes = [["Royal Purple", "#512888"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/5n724fds";
         break;
 
@@ -787,7 +815,7 @@ let teams = [
       case "Kennesaw State":
         team.TeamMascot = "Owls";
         team.MascotName = "Scrappy the Owl";
-        team.TeamColors = "Black and gold";
+        team.ColorCodes = [["Black", "#000000"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/2ry3ur6u";
         break;
 
@@ -795,92 +823,113 @@ let teams = [
       case "Kent State":
         team.TeamMascot = "Golden Flashes";
         team.MascotName = "Flash";
-        team.TeamColors = "Navy blue and gold";
+        team.ColorCodes = [["Navy Blue", "#002664"], ["Gold", "#EAB020"]];
         team.MascotImage = "https://tinyurl.com/4j2cd898";
         break;
 
       case "Kentucky":
         team.TeamMascot = "Wildcats";
         team.MascotName = "The Wildcat";
-        team.TeamColors = "Wildcat blue";
+        team.ColorCodes = [["Kentucky Blue", "#0033A0"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/yjuuxpe5";
+        break;
+
+      case "Liberty":
+        team.TeamMascot = "Flames";
+        team.MascotName = "Sparky the Eagle";
+        team.ColorCodes = [["Red", "#990000"], ["Blue", "#002868"], ["White", "#FFFFFF"]];
+        team.MascotImage = "https://tinyurl.com/yyfmc8dm";
+        break;
+
+      case "Lipscomb":
+        team.TeamMascot = "Bisons";
+        team.MascotName = "Lou Bison";
+        team.ColorCodes = [["Purple", "#582C83"], ["Gold", "#F0B323"]];
+        team.MascotImage = "https://tinyurl.com/t9dy7ur8";
         break;
 
       case "Long Beach St":
       case "Long Beach State":
         team.TeamMascot = "49ers";
         team.MascotName = "Elbee";
-        team.TeamColors = "Black and gold";
+        team.ColorCodes = [["Black", "#000000"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/mxccx9c7";
         break;
 
       case "Longwood":
         team.TeamMascot = "Lancers";
         team.MascotName = "Elwood";
-        team.TeamColors = "Blue and white";
+        team.ColorCodes = [["Blue", "#003082"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/m228792h";
         break;
 
       case "Louisiana":
         team.TeamMascot = "Ragin' Cajuns";
         team.MascotName = "Cayenne";
-        team.TeamColors = "Vermillion and white";
+        team.ColorCodes = [["Vermillion", "#CE1126"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/mwksxpwy";
+        break;
+
+      case "Louisville":
+        team.TeamMascot = "Cardinals";
+        team.MascotName = "Louie the Cardinal";
+        team.ColorCodes = [["Cardinal Red", "#AD0000"], ["Black", "#000000"]];
+        team.MascotImage = "https://tinyurl.com/yxnsbv9r";
         break;
 
       case "Loyola Chicago":
         team.TeamMascot = "Ramblers";
         team.MascotName = "Lu Wolf";
-        team.TeamColors = "Maroon, gold";
+        team.ColorCodes = [["Maroon", "#6B0C27"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/2m8ktb29";
         break;
 
       case "LSU":
         team.TeamMascot = "Tigers";
         team.MascotName = "Mike the Tiger";
-        team.TeamColors = "Purple and gold";
+        team.ColorCodes = [["Purple", "#461D7C"], ["Gold", "#FDD023"]];
         team.MascotImage = "https://tinyurl.com/m5p358dh";
         break;
 
       case "Marquette":
         team.TeamMascot = "Golden Eagles";
         team.MascotName = "Golden Eagle";
-        team.TeamColors = "Blue and gold";
+        team.ColorCodes = [["Blue", "#003366"], ["Gold", "#FFC229"]];
         team.MascotImage = "https://tinyurl.com/y3a644tm";
         break;
 
       case "Maryland":
         team.TeamMascot = "Terrapins";
         team.MascotName = "Testudo";
-        team.TeamColors = "Red, white, black and gold";
+        team.ColorCodes = [["Red", "#E03A3E"], ["Gold", "#FFD520"], ["Black", "#000000"]];
         team.MascotImage = "https://tinyurl.com/mpyk6w2f";
         break;
 
       case "McNeese":
         team.TeamMascot = "Cowboys";
         team.MascotName = "Rowdy";
-        team.TeamColors = "Blue and gold";
+        team.ColorCodes = [["Royal Blue", "#003087"], ["Gold", "#FFC72C"]];
         team.MascotImage = "https://tinyurl.com/57s9982c";
         break;
 
       case "Memphis":
         team.TeamMascot = "Tigers";
         team.MascotName = "TOM";
-        team.TeamColors = "Blue and gray";
+        team.ColorCodes = [["Memphis Blue", "#003087"], ["Gray", "#898D8D"]];
         team.MascotImage = "https://tinyurl.com/3jjbhhuc";
         break;
 
       case "Miami":
         team.TeamMascot = "Hurricanes";
         team.MascotName = "Sebastian the Ibis";
-        team.TeamColors = "UM Orange and UM Green";
+        team.ColorCodes = [["Orange", "#F47321"], ["Green", "#005030"]];
         team.MascotImage = "https://tinyurl.com/msnfy7sp";
         break;
 
       case "Michigan":
         team.TeamMascot = "Wolverines";
         team.MascotName = "None";
-        team.TeamColors = "Maize and blue";
+        team.ColorCodes = [["Maize", "#FFCB05"], ["Blue", "#00274C"]];
         team.MascotImage = "";
         break;
 
@@ -888,7 +937,7 @@ let teams = [
       case "Michigan State":
         team.TeamMascot = "Spartans";
         team.MascotName = "Sparty";
-        team.TeamColors = "Green and white";
+        team.ColorCodes = [["Spartan Green", "#18453B"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/ywytnyp5";
         break;
 
@@ -896,22 +945,29 @@ let teams = [
       case "Mississippi State":
         team.TeamMascot = "Bulldogs";
         team.MascotName = "Bully";
-        team.TeamColors = "Maroon and White";
+        team.ColorCodes = [["Maroon", "#660000"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/4h54b36m";
         break;
 
       case "Missouri":
         team.TeamMascot = "Tigers";
         team.MascotName = "Truman the Tiger";
-        team.TeamColors = "MU gold and black";
+        team.ColorCodes = [["Mizzou Gold", "#F1B82D"], ["Black", "#000000"]];
         team.MascotImage = "https://tinyurl.com/57anrkw8";
+        break;
+
+      case "Montana":
+        team.TeamMascot = "Grizzlies";
+        team.MascotName = "Monte the Grizzly Bear";
+        team.ColorCodes = [["Maroon", "#660033"], ["Silver", "#999999"]];
+        team.MascotImage = "https://tinyurl.com/58669sbd";
         break;
 
       case "Montana St":
       case "Montana State":
         team.TeamMascot = "Bobcats";
         team.MascotName = "Champ";
-        team.TeamColors = "Blue and gold";
+        team.ColorCodes = [["Blue", "#003A70"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/yrsyjx9k";
         break;
 
@@ -919,16 +975,31 @@ let teams = [
       case "Morehead State":
         team.TeamMascot = "Eagles";
         team.MascotName = "Beaker";
-        team.TeamColors = "Blue and gold";
+        team.ColorCodes = [["Blue", "#003082"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/3w427shu";
+        break;
+
+      case "Mount St Marys":
+        team.TeamMascot = "Mountaineers";
+        team.MascotName = "Emmit S. Burg";
+        team.ColorCodes = [["Blue", "#002855"], ["Bronze", "#84754E"]];
+        team.MascotImage = "https://tinyurl.com/4rfyjftk";
         break;
 
       case "Murray St":
       case "Murray State":
         team.TeamMascot = "Racers";
         team.MascotName = "Racer One, Dunker";
-        team.TeamColors = "Navy and gold";
+        team.ColorCodes = [["Navy", "#002147"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/4cpby7kf";
+        break;
+
+      case "N Kentucky":
+      case "Northern Kentucky":
+        team.TeamMascot = "Norse";
+        team.MascotName = "Victor E. Viking";
+        team.ColorCodes = [["Black", "#000000"], ["Gold", "#C5A028"]];
+        team.MascotImage = "https://tinyurl.com/e2jv6ar5";
         break;
 
       case "NC St":
@@ -937,28 +1008,28 @@ let teams = [
       case "North Carolina State":
         team.TeamMascot = "Wolfpack";
         team.MascotName = "Mr. and Mrs. Wuf";
-        team.TeamColors = "Red and white";
+        team.ColorCodes = [["Red", "#CC0000"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/mt87ezra";
         break;
 
       case "Nebraska":
         team.TeamMascot = "Cornhuskers";
         team.MascotName = "Herbie Husker";
-        team.TeamColors = "Red, Black, Cream and White";
+        team.ColorCodes = [["Scarlet", "#E41C38"], ["Cream", "#F5E6D0"]];
         team.MascotImage = "https://tinyurl.com/3meearuk";
         break;
 
       case "Nevada":
         team.TeamMascot = "Wolf Pack";
         team.MascotName = "Alphie, Luna, and Wolfie Jr";
-        team.TeamColors = "Navy Blue and Silver";
+        team.ColorCodes = [["Navy Blue", "#003366"], ["Silver", "#8D9093"]];
         team.MascotImage = "https://tinyurl.com/bdhwdkt4";
         break;
 
       case "New Mexico":
         team.TeamMascot = "Lobos";
         team.MascotName = "Lobo Louie and Lobo Lucy";
-        team.TeamColors = "Cherry and Silver";
+        team.ColorCodes = [["Cherry", "#BA0C2F"], ["Silver", "#A9A9A9"]];
         team.MascotImage = "https://tinyurl.com/mt87cbm4";
         break;
 
@@ -966,51 +1037,43 @@ let teams = [
       case "New Mexico State":
         team.TeamMascot = "Aggies";
         team.MascotName = "Pistol Pete";
-        team.TeamColors = "Crimson and white";
+        team.ColorCodes = [["Crimson", "#8B0000"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/bddbhwz9";
-        break;
-
-      case "N Kentucky":
-      case "Northern Kentucky":
-        team.TeamMascot = "Norse";
-        team.MascotName = "Victor E. Viking";
-        team.TeamColors = "Black and gold";
-        team.MascotImage = "https://tinyurl.com/e2jv6ar5";
         break;
 
       case "Norfolk St":
       case "Norfolk State":
         team.TeamMascot = "Spartans";
         team.MascotName = "Spiro the Spartan";
-        team.TeamColors = "Green, gold";
+        team.ColorCodes = [["Green", "#006633"], ["Gold", "#CDA323"]];
         team.MascotImage = "https://tinyurl.com/bdfh2kkm";
         break;
 
       case "North Carolina":
         team.TeamMascot = "Tar Heels";
         team.MascotName = "Rameses";
-        team.TeamColors = "Carolina blue and white";
+        team.ColorCodes = [["Carolina Blue", "#4B9CD3"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/4rnd6d37";
         break;
 
       case "Northwestern":
         team.TeamMascot = "Wildcats";
         team.MascotName = "Willie the Wildcat";
-        team.TeamColors = "Purple and white";
+        team.ColorCodes = [["Purple", "#4E2A84"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/2f8px3p5";
         break;
 
       case "Notre Dame":
         team.TeamMascot = "Fighting Irish";
         team.MascotName = "Leprechaun";
-        team.TeamColors = "Blue and gold";
+        team.ColorCodes = [["Navy Blue", "#0C2340"], ["Gold", "#C99700"]];
         team.MascotImage = "https://tinyurl.com/58y9etbf";
         break;
 
       case "Oakland":
         team.TeamMascot = "Athletics";
         team.MascotName = "Stomper";
-        team.TeamColors = "Gold, Black and White";
+        team.ColorCodes = [["Gold", "#C5A028"], ["Black", "#000000"]];
         team.MascotImage = "https://tinyurl.com/d7crzz6s";
         break;
 
@@ -1018,21 +1081,42 @@ let teams = [
       case "Ohio State":
         team.TeamMascot = "Buckeyes";
         team.MascotName = "Brutus";
-        team.TeamColors = "Scarlet and gray";
+        team.ColorCodes = [["Scarlet", "#BB0000"], ["Gray", "#666666"]];
         team.MascotImage = "https://tinyurl.com/4pptx8m9";
+        break;
+
+      case "Oklahoma":
+        team.TeamMascot = "Sooners";
+        team.MascotName = "Boomer and Sooner";
+        team.ColorCodes = [["Crimson", "#841617"], ["Cream", "#FDF9D8"]];
+        team.MascotImage = "https://tinyurl.com/49trmfcx";
+        break;
+
+      case "Ole Miss":
+        team.TeamMascot = "Rebels";
+        team.MascotName = "Tony the Landshark";
+        team.ColorCodes = [["Cardinal Red", "#CE1126"], ["Navy Blue", "#14213D"]];
+        team.MascotImage = "https://tinyurl.com/54ff3t5b";
+        break;
+
+      case "Omaha":
+        team.TeamMascot = "Mavericks";
+        team.MascotName = "Durango";
+        team.ColorCodes = [["Black", "#000000"], ["Red", "#D71920"]];
+        team.MascotImage = "https://tinyurl.com/3kkd8y6c";
         break;
 
       case "Oral Roberts":
         team.TeamMascot = "Golden Eagles";
         team.MascotName = "Eli";
-        team.TeamColors = "Navy blue and gold";
+        team.ColorCodes = [["Navy Blue", "#002147"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/yc2pt8ej";
         break;
 
       case "Oregon":
         team.TeamMascot = "Ducks";
         team.MascotName = "The Oregon Duck";
-        team.TeamColors = "Green and yellow";
+        team.ColorCodes = [["Green", "#154733"], ["Yellow", "#FEE123"]];
         team.MascotImage = "https://tinyurl.com/pcyany7y";
         break;
 
@@ -1040,86 +1124,50 @@ let teams = [
       case "Penn State":
         team.TeamMascot = "Nittany Lions";
         team.MascotName = "Nittany Lion";
-        team.TeamColors = "Blue and white";
+        team.ColorCodes = [["Navy Blue", "#001E44"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/24rcu7dn";
         break;
 
       case "Princeton":
         team.TeamMascot = "Tigers";
         team.MascotName = "The Tiger";
-        team.TeamColors = "Black and orange";
+        team.ColorCodes = [["Orange", "#E77500"], ["Black", "#000000"]];
         team.MascotImage = "https://tinyurl.com/2s46ujwx";
         break;
 
       case "Providence":
         team.TeamMascot = "Friars";
         team.MascotName = "Friar Dom";
-        team.TeamColors = "Providence Black, Metallic and White";
+        team.ColorCodes = [["Black", "#000000"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/yc6jze4f";
         break;
 
       case "Purdue":
         team.TeamMascot = "Boilermakers";
         team.MascotName = "Boilermaker Special";
-        team.TeamColors = "Old gold and black";
+        team.ColorCodes = [["Old Gold", "#CFB991"], ["Black", "#000000"]];
         team.MascotImage = "https://tinyurl.com/37rs5ewv";
         break;
 
       case "Richmond":
         team.TeamMascot = "Spiders";
         team.MascotName = "WebstUR the Spider";
-        team.TeamColors = "UR Blue and UR Red";
+        team.ColorCodes = [["Red", "#CC0000"], ["Blue", "#003082"]];
         team.MascotImage = "https://tinyurl.com/wzzcx6px";
+        break;
+
+      case "Robert Morris":
+        team.TeamMascot = "Colonials";
+        team.MascotName = "RoMo";
+        team.ColorCodes = [["Blue", "#14234b"], ["Red", "#a6192e"]];
+        team.MascotImage = "https://tinyurl.com/bdes5dv8";
         break;
 
       case "Rutgers":
         team.TeamMascot = "Scarlet Knights";
         team.MascotName = "Scarlet Knight";
-        team.TeamColors = "Scarlet, gray and black";
+        team.ColorCodes = [["Scarlet", "#CC0033"], ["Gray", "#8C8C8C"]];
         team.MascotImage = "https://tinyurl.com/bde3px7t";
-        break;
-
-      case "Saint Mary's":
-        team.TeamMascot = "Gaels";
-        team.MascotName = "Gael Force One";
-        team.TeamColors = "Navy, red and silver";
-        team.MascotImage = "https://tinyurl.com/f92xs2kj";
-        break;
-
-      case "Saint Peter's":
-        team.TeamMascot = "Peacocks";
-        team.MascotName = "Peacock";
-        team.TeamColors = "Blue and white";
-        team.MascotImage = "https://tinyurl.com/hmf9bck6";
-        break;
-
-      case "Samford":
-        team.TeamMascot = "Bulldogs";
-        team.MascotName = "Spike the Bulldog";
-        team.TeamColors = "Blue and red";
-        team.MascotImage = "https://tinyurl.com/46htwryz";
-        break;
-
-      case "San Diego St":
-      case "San Diego State":
-        team.TeamMascot = "Aztecs ";
-        team.MascotName = "Aztec Warrior";
-        team.TeamColors = "Black, scarlet";
-        team.MascotImage = "https://tinyurl.com/2uhujj7c";
-        break;
-
-      case "San Francisco":
-        team.TeamMascot = "Dons";
-        team.MascotName = "The Don";
-        team.TeamColors = "Green and gold";
-        team.MascotImage = "https://tinyurl.com/2p8wb56c";
-        break;
-
-      case "South Carolina":
-        team.TeamMascot = "Gamecocks";
-        team.MascotName = "Cocky";
-        team.TeamColors = "Garnet and Black";
-        team.MascotImage = "https://tinyurl.com/4dw7mrf2";
         break;
 
       case "S Dakota St":
@@ -1128,157 +1176,249 @@ let teams = [
       case "South Dakota State":
         team.TeamMascot = "Jackrabbits";
         team.MascotName = "Jack the Jackrabbit";
-        team.TeamColors = "Blue, yellow";
+        team.ColorCodes = [["Blue", "#0033A0"], ["Yellow", "#FFD100"]];
         team.MascotImage = "https://tinyurl.com/bddfwv3n";
+        break;
+
+      case "Saint Mary's":
+        team.TeamMascot = "Gaels";
+        team.MascotName = "Gael Force One";
+        team.ColorCodes = [["Navy", "#002060"], ["Red", "#BA0C2F"], ["Silver", "#A9A9A9"]];
+        team.MascotImage = "https://tinyurl.com/f92xs2kj";
+        break;
+
+      case "Saint Peter's":
+        team.TeamMascot = "Peacocks";
+        team.MascotName = "Peacock";
+        team.ColorCodes = [["Blue", "#003082"], ["White", "#FFFFFF"]];
+        team.MascotImage = "https://tinyurl.com/hmf9bck6";
+        break;
+
+      case "Samford":
+        team.TeamMascot = "Bulldogs";
+        team.MascotName = "Spike the Bulldog";
+        team.ColorCodes = [["Blue", "#003082"], ["Red", "#CC0000"]];
+        team.MascotImage = "https://tinyurl.com/46htwryz";
+        break;
+
+      case "San Diego St":
+      case "San Diego State":
+        team.TeamMascot = "Aztecs";
+        team.MascotName = "Aztec Warrior";
+        team.ColorCodes = [["Scarlet", "#A6192E"], ["Black", "#000000"]];
+        team.MascotImage = "https://tinyurl.com/2uhujj7c";
+        break;
+
+      case "San Francisco":
+        team.TeamMascot = "Dons";
+        team.MascotName = "The Don";
+        team.ColorCodes = [["Green", "#00693E"], ["Gold", "#C5A028"]];
+        team.MascotImage = "https://tinyurl.com/2p8wb56c";
         break;
 
       case "Seton Hall":
         team.TeamMascot = "Pirates";
         team.MascotName = "The Pirate";
-        team.TeamColors = "Blue and white";
+        team.ColorCodes = [["Blue", "#003082"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/2x2crxsh";
+        break;
+
+      case "SIUE":
+        team.TeamMascot = "Cougars";
+        team.MascotName = "Eddie the Cougar";
+        team.ColorCodes = [["Red", "#EF3829"], ["White", "#FFFFFF"]];
+        team.MascotImage = "https://tinyurl.com/mv89644h";
+        break;
+
+      case "South Carolina":
+        team.TeamMascot = "Gamecocks";
+        team.MascotName = "Cocky";
+        team.ColorCodes = [["Garnet", "#73000A"], ["Black", "#000000"]];
+        team.MascotImage = "https://tinyurl.com/4dw7mrf2";
+        break;
+
+      case "St Francis PA":
+        team.TeamMascot = "Red Flash";
+        team.MascotName = "Frankie the Friar";
+        team.ColorCodes = [["Red", "#BD1F25"], ["Dark Red", "#790000"]];
+        team.MascotImage = "https://tinyurl.com/4c8ek3wr";
+        break;
+
+      case "St John's":
+        team.TeamMascot = "Red Storm";
+        team.MascotName = "Johnny Thunderbird";
+        team.ColorCodes = [["Red", "#BA0C2F"], ["Blue", "#041C2C"]];
+        team.MascotImage = "https://tinyurl.com/5wbhc5nk";
         break;
 
       case "Stetson":
         team.TeamMascot = "Hatters";
         team.MascotName = "John B";
-        team.TeamColors = "Hunter green and white";
+        team.ColorCodes = [["Green", "#215732"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/3yxd68sx";
         break;
 
       case "TCU":
         team.TeamMascot = "Horned Frogs";
         team.MascotName = "Superfrog";
-        team.TeamColors = "Horned Frog Purple and White";
+        team.ColorCodes = [["Purple", "#4D1979"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/3rxcw2ak";
         break;
 
       case "Tennessee":
         team.TeamMascot = "Volunteers";
         team.MascotName = "Smokey";
-        team.TeamColors = "Tennessee orange and smokey";
+        team.ColorCodes = [["Tennessee Orange", "#FF8200"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/49a9f9tx";
         break;
 
       case "Texas":
-        team.TeamMascot = "Longhorns ";
+        team.TeamMascot = "Longhorns";
         team.MascotName = "Bevo";
-        team.TeamColors = "Burnt orange and white";
+        team.ColorCodes = [["Burnt Orange", "#BF5700"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/y3xyxdfv";
         break;
 
       case "Texas A&M":
         team.TeamMascot = "Aggies";
         team.MascotName = "Reveille";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
         team.ColorCodes = [["Maroon", "#500000"], ["White", "#FFFFFF"]];
-        team.MascotImage = "https://tinyurl.com/mwssk9kx";
+        team.MascotImage = "https://tinyurl.com/h98hmjeb";
         break;
 
+      case "Texas A&M CC":
       case "Texas A&M Corpus Christi":
-        team.TeamMascot = "CC Islanders";
+        team.TeamMascot = "Islanders";
         team.MascotName = "Izzy the Islander";
-        team.TeamColors = "Royal blue, white and green";
+        team.ColorCodes = [["Royal Blue", "#003087"], ["Green", "#00703C"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/25ky4hyc";
         break;
 
       case "Texas Southern":
         team.TeamMascot = "Tigers";
         team.MascotName = "Tiger";
-        team.TeamColors = "Maroon, gray";
+        team.ColorCodes = [["Maroon", "#660000"], ["Gray", "#999999"]];
         team.MascotImage = "https://tinyurl.com/zuw9ntf8";
         break;
 
       case "Texas Tech":
         team.TeamMascot = "Red Raiders";
         team.MascotName = "Masked Rider, Raider Red";
-        team.TeamColors = "Scarlet and black";
+        team.ColorCodes = [["Scarlet", "#CC0000"], ["Black", "#000000"]];
         team.MascotImage = "https://tinyurl.com/5cjtzbp2";
+        break;
+
+      case "Troy":
+        team.TeamMascot = "Trojans";
+        team.MascotName = "T-Roy";
+        team.ColorCodes = [["Red", "#8A2432"], ["Grey", "#B3B5B8"], ["White", "#FFFFFF"]];
+        team.MascotImage = "https://tinyurl.com/2xsxcu6m";
         break;
 
       case "UAB":
         team.TeamMascot = "Blazers";
         team.MascotName = "Blaze the Dragon";
-        team.TeamColors = "Green, gold and white";
+        team.ColorCodes = [["Green", "#1E6B52"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/yhjac9xs";
         break;
 
-      case "UCLA":
-        team.TeamMascot = "Bruins";
-        team.MascotName = "Joe Bruin";
-        team.TeamColors = "UCLA blue, UCLA gold";
-        team.MascotImage = "https://tinyurl.com/88auedfm";
-        break;
-
-      case "UConn":
-        team.TeamMascot = "Huskies ";
-        team.MascotName = "Jonathan the Husky";
-        team.TeamColors = "Navy blue, gray and white";
-        team.MascotImage = "https://tinyurl.com/yrhnkz75";
-        break;
-
-      case "UNC Asheville":
-        team.TeamMascot = "Bulldogs";
-        team.MascotName = "Rocky the Bulldog";
-        team.TeamColors = "Royal blue and white";
-        team.MascotImage = "https://tinyurl.com/mumwr25f";
-        break;
-
-      case "USC":
-        team.TeamMascot = "Trojans ";
-        team.MascotName = "Traveler";
-        team.TeamColors = "Gold, cardinal";
-        team.MascotImage = "https://tinyurl.com/4xyxdb8u";
+      case "UC San Diego":
+        team.TeamMascot = "Tritons";
+        team.MascotName = "King Triton";
+        team.ColorCodes = [["Blue", "#00629B"], ["Gold", "#FFD200"]];
+        team.MascotImage = "https://tinyurl.com/mum2u7xb";
         break;
 
       case "UCSB":
       case "UC Santa Barbara":
         team.TeamMascot = "Gauchos";
         team.MascotName = "Olé";
-        team.TeamColors = "Blue and gold";
+        team.ColorCodes = [["Blue", "#003660"], ["Gold", "#FEBC11"]];
         team.MascotImage = "https://tinyurl.com/4n93v48b";
+        break;
+
+      case "UCLA":
+        team.TeamMascot = "Bruins";
+        team.MascotName = "Joe Bruin";
+        team.ColorCodes = [["True Blue", "#2D68C4"], ["Gold", "#F2A900"]];
+        team.MascotImage = "https://tinyurl.com/88auedfm";
+        break;
+
+      case "UConn":
+        team.TeamMascot = "Huskies";
+        team.MascotName = "Jonathan the Husky";
+        team.ColorCodes = [["Navy Blue", "#000E2F"], ["White", "#FFFFFF"]];
+        team.MascotImage = "https://tinyurl.com/yrhnkz75";
+        break;
+
+      case "UNC Asheville":
+        team.TeamMascot = "Bulldogs";
+        team.MascotName = "Rocky the Bulldog";
+        team.ColorCodes = [["Royal Blue", "#003082"], ["White", "#FFFFFF"]];
+        team.MascotImage = "https://tinyurl.com/mumwr25f";
+        break;
+
+      case "UNC Wilmington":
+        team.TeamMascot = "Seahawks";
+        team.MascotName = "Sammy C. Hawk";
+        team.ColorCodes = [["Blue", "#003366"], ["Teal", "#006666"]];
+        team.MascotImage = "https://tinyurl.com/m24thycw";
+        break;
+
+      case "USC":
+        team.TeamMascot = "Trojans";
+        team.MascotName = "Traveler";
+        team.ColorCodes = [["Cardinal", "#990000"], ["Gold", "#FFCC00"]];
+        team.MascotImage = "https://tinyurl.com/4xyxdb8u";
         break;
 
       case "Utah St":
       case "Utah State":
         team.TeamMascot = "Aggies";
         team.MascotName = "Big Blue";
-        team.TeamColors = "Navy blue, white and pewter gray";
+        team.ColorCodes = [["Navy", "#00285E"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/mwwn9wy5";
+        break;
+
+      case "Vanderbilt":
+        team.TeamMascot = "Commodores";
+        team.MascotName = "Mr. Commodore";
+        team.ColorCodes = [["Black", "#000000"], ["Old Gold", "#866D4B"]];
+        team.MascotImage = "https://tinyurl.com/2p9p8p36";
         break;
 
       case "VCU":
         team.TeamMascot = "Rams";
         team.MascotName = "Rodney the Ram";
-        team.TeamColors = "Black and gold";
+        team.ColorCodes = [["Black", "#000000"], ["Gold", "#C4A44A"]];
         team.MascotImage = "https://tinyurl.com/59jwxhw5";
         break;
 
       case "Vermont":
         team.TeamMascot = "Catamounts";
         team.MascotName = "Rally";
-        team.TeamColors = "Green and gold";
+        team.ColorCodes = [["Green", "#154734"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/5n72ptts";
         break;
 
       case "Villanova":
-        team.TeamMascot = "Wildcats ";
+        team.TeamMascot = "Wildcats";
         team.MascotName = "Will D. Cat";
-        team.TeamColors = "Navy blue and white";
+        team.ColorCodes = [["Navy Blue", "#00205B"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/2xrvbr77";
         break;
 
       case "Virginia":
         team.TeamMascot = "Cavaliers";
         team.MascotName = "Cavalier";
-        team.TeamColors = "Orange and blue";
+        team.ColorCodes = [["Blue", "#232D4B"], ["Orange", "#E57200"]];
         team.MascotImage = "https://tinyurl.com/4rd2ed32";
         break;
 
       case "Virginia Tech":
         team.TeamMascot = "Hokies";
         team.MascotName = "HokieBird";
-        team.TeamColors = "Chicago maroon and burnt orange";
+        team.ColorCodes = [["Maroon", "#660000"], ["Burnt Orange", "#CF4420"]];
         team.MascotImage = "https://tinyurl.com/yckxm29p";
         break;
 
@@ -1286,252 +1426,77 @@ let teams = [
       case "Washington State":
         team.TeamMascot = "Cougars";
         team.MascotName = "Butch T. Cougar";
-        team.TeamColors = "Crimson and gray";
+        team.ColorCodes = [["Crimson", "#981E32"], ["Gray", "#5E6A71"]];
         team.MascotImage = "https://tinyurl.com/2dwv8xh8";
+        break;
+
+      case "West Virginia":
+        team.TeamMascot = "Mountaineers";
+        team.MascotName = "The Mountaineer";
+        team.ColorCodes = [["Old Gold", "#EAAA00"], ["Blue", "#002855"]];
+        team.MascotImage = "https://tinyurl.com/mrx6499a";
         break;
 
       case "Western KY":
       case "Western Kentucky":
         team.TeamMascot = "Hilltoppers";
         team.MascotName = "Big Red";
-        team.TeamColors = "Red and white";
+        team.ColorCodes = [["Red", "#C8102E"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/mpaz84db";
-        break;
-
-      case "West Virginia":
-        team.TeamMascot = "Mountaineers";
-        team.MascotName = "The Mountaineer";
-        team.TeamColors = "Old gold and blue";
-        team.MascotImage = "https://tinyurl.com/mrx6499a";
         break;
 
       case "Wisconsin":
         team.TeamMascot = "Badgers";
         team.MascotName = "Bucky Badger";
-        team.TeamColors = "Cardinal and white";
+        team.ColorCodes = [["Cardinal Red", "#C5050C"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/bde9tntk";
+        break;
+
+      case "Wofford":
+        team.TeamMascot = "Terriers";
+        team.MascotName = "Boss, Terri and Blitz";
+        team.ColorCodes = [["Old Gold", "#886E4C"], ["Black", "#000000"]];
+        team.MascotImage = "https://tinyurl.com/2ujcwpj7";
         break;
 
       case "Wright St":
       case "Wright State":
         team.TeamMascot = "Raiders";
         team.MascotName = "Rowdy Raider";
-        team.TeamColors = "Green and gold";
+        team.ColorCodes = [["Green", "#006338"], ["Gold", "#C5A028"]];
         team.MascotImage = "https://tinyurl.com/yc87pdav";
         break;
 
       case "Wyoming":
         team.TeamMascot = "Cowboys";
         team.MascotName = "Cowboy Joe";
-        team.TeamColors = "UW Brown and UW Gold";
+        team.ColorCodes = [["Brown", "#492F24"], ["Gold", "#FFC425"]];
         team.MascotImage = "https://tinyurl.com/89zfh574";
         break;
 
       case "Xavier":
         team.TeamMascot = "Musketeers";
         team.MascotName = "D'Artagnan and the Blue Blob";
-        team.TeamColors = "Navy blue and silver";
+        team.ColorCodes = [["Navy Blue", "#0C2340"], ["Gold", "#9E7E38"]];
         team.MascotImage = "https://tinyurl.com/28yz6zcd";
         break;
 
       case "Yale":
         team.TeamMascot = "Bulldogs";
         team.MascotName = "Handsome Dan";
-        team.TeamColors = "Yale blue and white";
+        team.ColorCodes = [["Yale Blue", "#00356B"], ["White", "#FFFFFF"]];
         team.MascotImage = "https://tinyurl.com/3rs4y7np";
         break;
 
+      // ── template for new entries ──────────────────────────────────────────
+      // case "TEAMNAME":
+      //   team.TeamMascot = "";
+      //   team.MascotName = "";
+      //   team.ColorCodes = [["NAME", "#000000"], ["NAME", "#000000"]];
+      //   team.MascotImage = "";
+      //   break;
 
-      case "Louisville":
-        team.TeamMascot = "Cardinal Bird";
-        team.MascotName = "Louie the Cardinal";
-        team.TeamColors = "Black and Red";
-        team.MascotImage = "https://tinyurl.com/yxnsbv9r";
-        break;
-
-
-      case "UC San Diego":
-        team.TeamMascot = "Tritons";
-        team.MascotName = "King Triton";
-        team.TeamColors = "Blue and Gold";
-        team.MascotImage = "https://tinyurl.com/mum2u7xb";
-        break;
-
-
-      case "Ole Miss":
-        team.TeamMascot = "Rebels";
-        team.MascotName = "Tony the Landshark";
-        team.TeamColors = "Red and Navy Blue";
-        team.MascotImage = "https://tinyurl.com/54ff3t5b";
-        break;
-
-
-      case "Lipscomb":
-        team.TeamMascot = "Bisons";
-        team.MascotName = "Lou Bison";
-        team.TeamColors = "Purple and Gold";
-        team.MascotImage = "https://tinyurl.com/t9dy7ur8";
-        break;
-
-
-      case "Liberty":
-        team.TeamMascot = "Flames";
-        team.MascotName = "Sparky the Eagle";
-        team.TeamColors = "Blue, Red, White, Grey";
-        team.MascotImage = "https://tinyurl.com/yyfmc8dm";
-        break;
-
-
-      case "Montana":
-        team.TeamMascot = "Grizzlies";
-        team.MascotName = "Monte the Grizzly Bear";
-        team.TeamColors = "Maroon and Silver";
-        team.ColorCodes = [["Maroon", "#660033"],["Silver", "#999999"]]
-        team.MascotImage = "https://tinyurl.com/58669sbd";
-        break;
-
-
-      case "Vanderbilt":
-        team.TeamMascot = "Commodores ";
-        team.MascotName = "Mr. Commodore";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Black", "#000000"],["Old Gold", "#866d4b"]]
-        team.MascotImage = "https://tinyurl.com/2p9p8p36";
-        break;
-
-
-      case "Robert Morris":
-        team.TeamMascot = "Colonials";
-        team.MascotName = "RoMo";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Blue", "#14234b"],["Red", "#a6192e"]]
-        team.MascotImage = "https://tinyurl.com/bdes5dv8";
-        break;
-
-      
-      case "Oklahoma":
-        team.TeamMascot = "Sooners";
-        team.MascotName = "Boomer and Sooner";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Crimson", "#841617"],["Cream", "#FDF9D8"]]
-        team.MascotImage = "https://tinyurl.com/49trmfcx";
-        break;
-
-      case "UNC Wilmington":
-        team.TeamMascot = "Seahawks";
-        team.MascotName = "Sammy C. Hawk";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Blue", "#003366"],["Teal", "#006666"]]
-        team.MascotImage = "https://tinyurl.com/m24thycw";
-        break;
-
-
-      case "St John's":
-        team.TeamMascot = "Red Storm";
-        team.MascotName = "Johnny Thunderbird";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Red", "#BA0C2F"],["Blue", "#041C2C"]]
-        team.MascotImage = "https://tinyurl.com/5wbhc5nk";
-        break;
-
-
-      case "Omaha":
-        team.TeamMascot = "Mavericks";
-        team.MascotName = "Durango";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Black", "#000000"],["Red", "#D71920"]]
-        team.MascotImage = "https://tinyurl.com/3kkd8y6c";
-        break;
-
-      
-      case "SIUE":
-        team.TeamMascot = "Cougars";
-        team.MascotName = "Eddie the Cougar";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Red", "#ef3829"],["White", "#ffffff"],["Light Brown", "#cfaa7a"]]
-        team.MascotImage = "https://tinyurl.com/mv89644h";
-        break;
-  
-
-      
-      case "Georgia":
-        team.TeamMascot = "Bulldogs";
-        team.MascotName = "Uga";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Bulldog Red", "#BA0C2F"],["Arch Black", "#000000"],["Chapel Bell White", "#FFFFFF"]]
-        team.MascotImage = "https://tinyurl.com/bdd976mr";
-        break;
-  
-
-      
-      case "High Point":
-        team.TeamMascot = "Panthers";
-        team.MascotName = "Prowler the Panther";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Royal Purple", "#330072"],["White", "#ffffff"]]
-        team.MascotImage = "https://tinyurl.com/2yxkzved";
-        break;
-  
-
-      
-      case "Troy":
-        team.TeamMascot = "Trojans";
-        team.MascotName = "T-Roy";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Red", "#8a2432"],["Grey", "#b3b5b8"],["White", "#ffffff"]]
-        team.MascotImage = "https://tinyurl.com/2xsxcu6m";
-        break;
-      
-      case "Wofford":
-        team.TeamMascot = "Terriers";
-        team.MascotName = "Boss, Terri and Blitz";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Old Gold", "#886E4C"],["Black", "#FFFFFF"],["Khaki", "#C7B37F"]]
-        team.MascotImage = "https://tinyurl.com/2ujcwpj7";
-        break;
-      
-      case "Alabama St":
-        team.TeamMascot = "Hornets";
-        team.MascotName = "Stinger";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Old Gold", "#C99700"],["Black", "#000000"]]
-        team.MascotImage = "https://tinyurl.com/mryreruc";
-        break;
-  
-      case "St Francis PA":
-        team.TeamMascot = "Red Flash";
-        team.MascotName = "Frankie the Friar";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Red", "#bd1f25"],["Dark Red", "#790000"]]
-        team.MascotImage = "https://tinyurl.com/4c8ek3wr";
-        break;
-  
-      case "American":
-        team.TeamMascot = "Eagles";
-        team.MascotName = "Clawed Z";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Blue", "#143d8d"],["Red", "#c41230"],["White", "#ffffff"]]
-        team.MascotImage = "https://tinyurl.com/4brj4be5";
-        break;
-  
-      case "Mount St Marys":
-        team.TeamMascot = "Mountaineers";
-        team.MascotName = "Emmit S. Burg";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["Blue", "#002855"],["Bronze", "#84754E"]]
-        team.MascotImage = "https://tinyurl.com/4rfyjftk";
-        break;
-      
-      case "xxxxxxxxxxxxxxx":
-        team.TeamMascot = "xxxxxxxxxxxxxxx";
-        team.MascotName = "xxxxxxxxxxxxxxx";
-        team.TeamColors = "xxxxxxxxxxxxxxx";
-        team.ColorCodes = [["NAME", "#000000000000"],["NAME", "#000000000000"]]
-        team.MascotImage = "xxxxxxxxxxxxxxx";
-        break;
-  
     }
-  }
-
-  return teams;
+    
+    return teams;
 }
