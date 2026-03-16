@@ -1,6 +1,11 @@
 * {
   /* prevent double-tap to zoom */ 
   touch-action: manipulation;
+  /* prevent long press image download popup on iOS */
+  -webkit-touch-callout: none;
+  /* prevent text selection */
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 html, body {
