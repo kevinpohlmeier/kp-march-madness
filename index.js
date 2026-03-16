@@ -416,86 +416,86 @@ function getTeams() {
   let teams = [
    
     // ===== EAST REGION (Duke 1-seed) =====
-    { "TeamID": 1,  "Seed": "1",  "Name": "Duke",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/150.png" },
-    { "TeamID": 2,  "Seed": "16", "Name": "Siena",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2561.png" },
-    { "TeamID": 3,  "Seed": "8",  "Name": "Ohio St",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/194.png" },
-    { "TeamID": 4,  "Seed": "9",  "Name": "TCU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2628.png" },
-    { "TeamID": 5,  "Seed": "5",  "Name": "St John's",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2599.png" },
-    { "TeamID": 6,  "Seed": "12", "Name": "Northern Iowa",  "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2460.png" },
-    { "TeamID": 7,  "Seed": "4",  "Name": "Kansas",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2305.png" },
-    { "TeamID": 8,  "Seed": "13", "Name": "Cal Baptist",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2856.png" },
-    { "TeamID": 9,  "Seed": "6",  "Name": "Louisville",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/97.png" },
-    { "TeamID": 10, "Seed": "11", "Name": "South Florida",  "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/58.png" },
-    { "TeamID": 11, "Seed": "3",  "Name": "Michigan St",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/127.png" },
-    { "TeamID": 12, "Seed": "14", "Name": "North Dakota St","Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2449.png" },
-    { "TeamID": 13, "Seed": "7",  "Name": "UCLA",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/26.png" },
-    { "TeamID": 14, "Seed": "10", "Name": "UCF",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2116.png" },
-    { "TeamID": 15, "Seed": "2",  "Name": "UConn",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/41.png" },
-    { "TeamID": 16, "Seed": "15", "Name": "Furman",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/231.png" },
+    { "TeamID": 1,  "Seed": "1",  "Name": "Duke"            },
+    { "TeamID": 2,  "Seed": "16", "Name": "Siena"           },
+    { "TeamID": 3,  "Seed": "8",  "Name": "Ohio St"         },
+    { "TeamID": 4,  "Seed": "9",  "Name": "TCU"             },
+    { "TeamID": 5,  "Seed": "5",  "Name": "St John's"       },
+    { "TeamID": 6,  "Seed": "12", "Name": "Northern Iowa"   },
+    { "TeamID": 7,  "Seed": "4",  "Name": "Kansas"          },
+    { "TeamID": 8,  "Seed": "13", "Name": "Cal Baptist"     },
+    { "TeamID": 9,  "Seed": "6",  "Name": "Louisville"      },
+    { "TeamID": 10, "Seed": "11", "Name": "South Florida"   },
+    { "TeamID": 11, "Seed": "3",  "Name": "Michigan St"     },
+    { "TeamID": 12, "Seed": "14", "Name": "North Dakota St" },
+    { "TeamID": 13, "Seed": "7",  "Name": "UCLA"            },
+    { "TeamID": 14, "Seed": "10", "Name": "UCF"             },
+    { "TeamID": 15, "Seed": "2",  "Name": "UConn"           },
+    { "TeamID": 16, "Seed": "15", "Name": "Furman"          },
    
     // ===== SOUTH REGION (Florida 1-seed) =====
-    { "TeamID": 17, "Seed": "1",  "Name": "Florida",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/57.png" },
+    { "TeamID": 17, "Seed": "1",  "Name": "Florida"         },
     { "TeamID": 18, "Seed": "16", "Name": "PVA/LEH",        "FirstFour": ["Prairie View AM", "Lehigh"] },
-    { "TeamID": 19, "Seed": "8",  "Name": "Clemson",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/228.png" },
-    { "TeamID": 20, "Seed": "9",  "Name": "Iowa",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2294.png" },
-    { "TeamID": 21, "Seed": "5",  "Name": "Vanderbilt",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/238.png" },
-    { "TeamID": 22, "Seed": "12", "Name": "McNeese",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2377.png" },
-    { "TeamID": 23, "Seed": "4",  "Name": "Nebraska",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/158.png" },
-    { "TeamID": 24, "Seed": "13", "Name": "Troy",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2653.png" },
-    { "TeamID": 25, "Seed": "6",  "Name": "North Carolina", "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/153.png" },
-    { "TeamID": 26, "Seed": "11", "Name": "VCU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2670.png" },
-    { "TeamID": 27, "Seed": "3",  "Name": "Illinois",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/356.png" },
-    { "TeamID": 28, "Seed": "14", "Name": "Penn",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/219.png" },
-    { "TeamID": 29, "Seed": "7",  "Name": "Saint Mary's",   "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2608.png" },
-    { "TeamID": 30, "Seed": "10", "Name": "Texas A&M",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/245.png" },
-    { "TeamID": 31, "Seed": "2",  "Name": "Houston",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/248.png" },
-    { "TeamID": 32, "Seed": "15", "Name": "Idaho",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/70.png" },
+    { "TeamID": 19, "Seed": "8",  "Name": "Clemson"         },
+    { "TeamID": 20, "Seed": "9",  "Name": "Iowa"            },
+    { "TeamID": 21, "Seed": "5",  "Name": "Vanderbilt"      },
+    { "TeamID": 22, "Seed": "12", "Name": "McNeese"         },
+    { "TeamID": 23, "Seed": "4",  "Name": "Nebraska"        },
+    { "TeamID": 24, "Seed": "13", "Name": "Troy"            },
+    { "TeamID": 25, "Seed": "6",  "Name": "North Carolina"  },
+    { "TeamID": 26, "Seed": "11", "Name": "VCU"             },
+    { "TeamID": 27, "Seed": "3",  "Name": "Illinois"        },
+    { "TeamID": 28, "Seed": "14", "Name": "Penn"            },
+    { "TeamID": 29, "Seed": "7",  "Name": "Saint Mary's"    },
+    { "TeamID": 30, "Seed": "10", "Name": "Texas A&M"       },
+    { "TeamID": 31, "Seed": "2",  "Name": "Houston"         },
+    { "TeamID": 32, "Seed": "15", "Name": "Idaho"           },
    
     // ===== WEST REGION (Arizona 1-seed) =====
-    { "TeamID": 33, "Seed": "1",  "Name": "Arizona",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/12.png" },
-    { "TeamID": 34, "Seed": "16", "Name": "LIU",            "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/112358.png" },
-    { "TeamID": 35, "Seed": "8",  "Name": "Villanova",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/222.png" },
-    { "TeamID": 36, "Seed": "9",  "Name": "Utah State",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/328.png" },
-    { "TeamID": 37, "Seed": "5",  "Name": "Wisconsin",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/275.png" },
-    { "TeamID": 38, "Seed": "12", "Name": "High Point",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2272.png" },
-    { "TeamID": 39, "Seed": "4",  "Name": "Arkansas",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/8.png" },
-    { "TeamID": 40, "Seed": "13", "Name": "Hawaii",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/62.png" },
-    { "TeamID": 41, "Seed": "6",  "Name": "BYU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/252.png" },
+    { "TeamID": 33, "Seed": "1",  "Name": "Arizona"         },
+    { "TeamID": 34, "Seed": "16", "Name": "LIU"             },
+    { "TeamID": 35, "Seed": "8",  "Name": "Villanova"       },
+    { "TeamID": 36, "Seed": "9",  "Name": "Utah State"      },
+    { "TeamID": 37, "Seed": "5",  "Name": "Wisconsin"       },
+    { "TeamID": 38, "Seed": "12", "Name": "High Point"      },
+    { "TeamID": 39, "Seed": "4",  "Name": "Arkansas"        },
+    { "TeamID": 40, "Seed": "13", "Name": "Hawaii"          },
+    { "TeamID": 41, "Seed": "6",  "Name": "BYU"             },
     { "TeamID": 42, "Seed": "11", "Name": "TEX/NCST",       "FirstFour": ["Texas", "NC St"] },
-    { "TeamID": 43, "Seed": "3",  "Name": "Gonzaga",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2250.png" },
-    { "TeamID": 44, "Seed": "14", "Name": "Kennesaw St",    "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/338.png" },
-    { "TeamID": 45, "Seed": "7",  "Name": "Miami",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2390.png" },
-    { "TeamID": 46, "Seed": "10", "Name": "Missouri",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/142.png" },
-    { "TeamID": 47, "Seed": "2",  "Name": "Purdue",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2509.png" },
-    { "TeamID": 48, "Seed": "15", "Name": "Queens",         "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2511.png" },
+    { "TeamID": 43, "Seed": "3",  "Name": "Gonzaga"         },
+    { "TeamID": 44, "Seed": "14", "Name": "Kennesaw St"     },
+    { "TeamID": 45, "Seed": "7",  "Name": "Miami"           },
+    { "TeamID": 46, "Seed": "10", "Name": "Missouri"        },
+    { "TeamID": 47, "Seed": "2",  "Name": "Purdue"          },
+    { "TeamID": 48, "Seed": "15", "Name": "Queens"          },
    
     // ===== MIDWEST REGION (Michigan 1-seed) =====
-    { "TeamID": 49, "Seed": "1",  "Name": "Michigan",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/130.png" },
+    { "TeamID": 49, "Seed": "1",  "Name": "Michigan"        },
     { "TeamID": 50, "Seed": "16", "Name": "UMBC/HOW",       "FirstFour": ["UMBC", "Howard"] },
-    { "TeamID": 51, "Seed": "8",  "Name": "Georgia",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/61.png" },
-    { "TeamID": 52, "Seed": "9",  "Name": "Saint Louis",    "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/139.png" },
-    { "TeamID": 53, "Seed": "5",  "Name": "Texas Tech",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2641.png" },
-    { "TeamID": 54, "Seed": "12", "Name": "Akron",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2006.png" },
-    { "TeamID": 55, "Seed": "4",  "Name": "Alabama",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/333.png" },
-    { "TeamID": 56, "Seed": "13", "Name": "Hofstra",        "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2275.png" },
-    { "TeamID": 57, "Seed": "6",  "Name": "Tennessee",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2633.png" },
+    { "TeamID": 51, "Seed": "8",  "Name": "Georgia"         },
+    { "TeamID": 52, "Seed": "9",  "Name": "Saint Louis"     },
+    { "TeamID": 53, "Seed": "5",  "Name": "Texas Tech"      },
+    { "TeamID": 54, "Seed": "12", "Name": "Akron"           },
+    { "TeamID": 55, "Seed": "4",  "Name": "Alabama"         },
+    { "TeamID": 56, "Seed": "13", "Name": "Hofstra"         },
+    { "TeamID": 57, "Seed": "6",  "Name": "Tennessee"       },
     { "TeamID": 58, "Seed": "11", "Name": "MIA/SMU",        "FirstFour": ["Miami OH", "SMU"] },
-    { "TeamID": 59, "Seed": "3",  "Name": "Virginia",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/258.png" },
-    { "TeamID": 60, "Seed": "14", "Name": "Wright St",      "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2750.png" },
-    { "TeamID": 61, "Seed": "7",  "Name": "Kentucky",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/96.png" },
-    { "TeamID": 62, "Seed": "10", "Name": "Santa Clara",    "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2541.png" },
-    { "TeamID": 63, "Seed": "2",  "Name": "Iowa State",     "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/66.png" },
-    { "TeamID": 64, "Seed": "15", "Name": "Tennessee St",   "Logo": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2634.png" },
+    { "TeamID": 59, "Seed": "3",  "Name": "Virginia"        },
+    { "TeamID": 60, "Seed": "14", "Name": "Wright St"       },
+    { "TeamID": 61, "Seed": "7",  "Name": "Kentucky"        },
+    { "TeamID": 62, "Seed": "10", "Name": "Santa Clara"     },
+    { "TeamID": 63, "Seed": "2",  "Name": "Iowa State"      },
+    { "TeamID": 64, "Seed": "15", "Name": "Tennessee St"    },
    
     // ===== FIRST FOUR EXTRAS =====
-    { "TeamID": 65, "Seed": "16", "Name": "Prairie View AM","Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2504.png" },
-    { "TeamID": 66, "Seed": "16", "Name": "Lehigh",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2329.png" },
-    { "TeamID": 67, "Seed": "11", "Name": "Texas",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/251.png" },
-    { "TeamID": 68, "Seed": "11", "Name": "NC St",          "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/152.png" },
-    { "TeamID": 69, "Seed": "16", "Name": "UMBC",           "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2413.png" },
-    { "TeamID": 70, "Seed": "16", "Name": "Howard",         "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2430.png" },
-    { "TeamID": 71, "Seed": "11", "Name": "Miami OH",       "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/193.png" },
-    { "TeamID": 72, "Seed": "11", "Name": "SMU",            "Logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2567.png" },
+    { "TeamID": 65, "Seed": "16", "Name": "Prairie View AM" },
+    { "TeamID": 66, "Seed": "16", "Name": "Lehigh"          },
+    { "TeamID": 67, "Seed": "11", "Name": "Texas"           },
+    { "TeamID": 68, "Seed": "11", "Name": "NC St"           },
+    { "TeamID": 69, "Seed": "16", "Name": "UMBC"            },
+    { "TeamID": 70, "Seed": "16", "Name": "Howard"          },
+    { "TeamID": 71, "Seed": "11", "Name": "Miami OH"        },
+    { "TeamID": 72, "Seed": "11", "Name": "SMU"             },
   ]
   
   // TODO: https://teamcolorcodes.com/arkansas-razorbacks-color-codes/ ? team.ColorCodes
@@ -504,6 +504,7 @@ function getTeams() {
     switch (team.Name) {
 
       case "Akron":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2006.png";
         team.TeamMascot = "Zips";
         team.MascotName = "Zippy the Kangaroo";
         team.ColorCodes = [["Blue", "#041E42"], ["Gold", "#B3A369"]];
@@ -511,6 +512,7 @@ function getTeams() {
         break;
 
       case "Alabama":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/333.png";
         team.TeamMascot = "Crimson Tide";
         team.MascotName = "Big Al";
         team.ColorCodes = [["Crimson", "#9E1B32"], ["White", "#FFFFFF"]];
@@ -532,6 +534,7 @@ function getTeams() {
         break;
 
       case "Arizona":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/12.png";
         team.TeamMascot = "Wildcats";
         team.MascotName = "Wilbur and Wilma";
         team.ColorCodes = [["Cardinal Red", "#CC0033"], ["Navy", "#003366"]];
@@ -539,6 +542,7 @@ function getTeams() {
         break;
 
       case "Arkansas":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/8.png";
         team.TeamMascot = "Razorbacks";
         team.MascotName = "Tusk IV";
         team.ColorCodes = [["Cardinal", "#9D2235"], ["White", "#FFFFFF"]];
@@ -569,6 +573,7 @@ function getTeams() {
 
       case "Brigham Young University":
       case "BYU":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/252.png";
         team.TeamMascot = "Cougars";
         team.MascotName = "Cosmo the Cougar";
         team.ColorCodes = [["Royal Blue", "#002E5D"], ["White", "#FFFFFF"]];
@@ -584,6 +589,7 @@ function getTeams() {
 
       case "Cal Baptist":
       case "California Baptist":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2856.png";
         team.TeamMascot = "Lancers";
         team.MascotName = "Saber the Lancer";
         team.ColorCodes = [["Blue", "#003082"], ["Gold", "#C5A028"]];
@@ -605,6 +611,7 @@ function getTeams() {
         break;
 
       case "Clemson":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/228.png";
         team.TeamMascot = "Tigers";
         team.MascotName = "The Tiger";
         team.ColorCodes = [["Clemson Orange", "#F66733"], ["Purple", "#522D80"]];
@@ -669,6 +676,7 @@ function getTeams() {
         break;
 
       case "Duke":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/150.png";
         team.TeamMascot = "Blue Devils";
         team.MascotName = "Blue Devil";
         team.ColorCodes = [["Duke Blue", "#003087"], ["White", "#FFFFFF"]];
@@ -691,6 +699,7 @@ function getTeams() {
         break;
 
       case "Florida":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/57.png";
         team.TeamMascot = "Gators";
         team.MascotName = "Albert and Alberta Gator";
         team.ColorCodes = [["Florida Orange", "#FA4616"], ["Florida Blue", "#0021A5"]];
@@ -698,6 +707,7 @@ function getTeams() {
         break;
 
       case "Furman":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/231.png";
         team.TeamMascot = "Paladins";
         team.MascotName = "Victor the Paladin";
         team.ColorCodes = [["Purple", "#582C83"], ["White", "#FFFFFF"]];
@@ -705,6 +715,7 @@ function getTeams() {
         break;
 
       case "Georgia":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/61.png";
         team.TeamMascot = "Bulldogs";
         team.MascotName = "Uga";
         team.ColorCodes = [["Bulldog Red", "#BA0C2F"], ["Arch Black", "#000000"]];
@@ -720,6 +731,7 @@ function getTeams() {
         break;
 
       case "Gonzaga":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2250.png";
         team.TeamMascot = "Bulldogs";
         team.MascotName = "Spike the Bulldog";
         team.ColorCodes = [["Navy Blue", "#002469"], ["Red", "#CE1126"]];
@@ -734,6 +746,7 @@ function getTeams() {
         break;
 
       case "Hawaii":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/62.png";
         team.TeamMascot = "Warriors";
         team.MascotName = "Vili the Warrior";
         team.ColorCodes = [["Green", "#024731"], ["White", "#FFFFFF"]];
@@ -741,6 +754,7 @@ function getTeams() {
         break;
  
       case "High Point":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2272.png";
         team.TeamMascot = "Panthers";
         team.MascotName = "Prowler the Panther";
         team.ColorCodes = [["Royal Purple", "#330072"], ["White", "#FFFFFF"]];
@@ -748,6 +762,7 @@ function getTeams() {
         break;
 
       case "Hofstra":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2275.png";
         team.TeamMascot = "Pride";
         team.MascotName = "KaTie the Pride";
         team.ColorCodes = [["Blue", "#00539B"], ["Gold", "#F0B323"]];
@@ -755,6 +770,7 @@ function getTeams() {
         break;
  
       case "Houston":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/248.png";
         team.TeamMascot = "Cougars";
         team.MascotName = "Shasta and Sasha";
         team.ColorCodes = [["Scarlet", "#CC0000"], ["White", "#FFFFFF"]];
@@ -762,6 +778,7 @@ function getTeams() {
         break;
 
       case "Howard":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2430.png";
         team.TeamMascot = "Bison";
         team.MascotName = "Big Blue and Lady Blue";
         team.ColorCodes = [["Navy Blue", "#003A63"], ["White", "#FFFFFF"]];
@@ -769,6 +786,7 @@ function getTeams() {
         break;
 
       case "Idaho":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/70.png";
         team.TeamMascot = "Vandals";
         team.MascotName = "Joe Vandal";
         team.ColorCodes = [["Silver", "#C0C0C0"], ["Gold", "#F0B323"]];
@@ -776,6 +794,7 @@ function getTeams() {
         break;
  
       case "Illinois":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/356.png";
         team.TeamMascot = "Fighting Illini";
         team.MascotName = "N/A";
         team.ColorCodes = [["Illini Orange", "#E84A27"], ["Navy Blue", "#13294B"]];
@@ -797,6 +816,7 @@ function getTeams() {
         break;
 
       case "Iowa":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2294.png";
         team.TeamMascot = "Hawkeyes";
         team.MascotName = "Herky the Hawk";
         team.ColorCodes = [["Black", "#000000"], ["Gold", "#FFCD00"]];
@@ -805,6 +825,7 @@ function getTeams() {
 
       case "Iowa St":
       case "Iowa State":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/66.png";
         team.TeamMascot = "Cyclones";
         team.MascotName = "Cy the Cardinal";
         team.ColorCodes = [["Cardinal", "#C8102E"], ["Gold", "#F1BE48"]];
@@ -827,6 +848,7 @@ function getTeams() {
         break;
 
       case "Kansas":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2305.png";
         team.TeamMascot = "Jayhawks";
         team.MascotName = "Big Jay and Baby Jay";
         team.ColorCodes = [["Blue", "#0051A5"], ["Crimson", "#E8000D"]];
@@ -843,6 +865,7 @@ function getTeams() {
 
       case "Kennesaw St":
       case "Kennesaw State":
+        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/338.png";
         team.TeamMascot = "Owls";
         team.MascotName = "Scrappy the Owl";
         team.ColorCodes = [["Black", "#000000"], ["Gold", "#C5A028"]];
@@ -858,6 +881,7 @@ function getTeams() {
         break;
 
       case "Kentucky":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/96.png";
         team.TeamMascot = "Wildcats";
         team.MascotName = "The Wildcat";
         team.ColorCodes = [["Kentucky Blue", "#0033A0"], ["White", "#FFFFFF"]];
@@ -865,6 +889,7 @@ function getTeams() {
         break;
 
       case "Lehigh":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2329.png";
         team.TeamMascot = "Mountain Hawks";
         team.MascotName = "Clutch the Mountain Hawk";
         team.ColorCodes = [["Brown", "#6B3A2A"], ["White", "#FFFFFF"]];
@@ -886,6 +911,7 @@ function getTeams() {
         break;
 
       case "LIU":
+        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/112358.png";
         team.TeamMascot = "Sharks";
         team.MascotName = "Vin the Shark";
         team.ColorCodes = [["Blue", "#003082"], ["Gold", "#C5A028"]];
@@ -915,6 +941,7 @@ function getTeams() {
         break;
 
       case "Louisville":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/97.png";
         team.TeamMascot = "Cardinals";
         team.MascotName = "Louie the Cardinal";
         team.ColorCodes = [["Cardinal Red", "#AD0000"], ["Black", "#000000"]];
@@ -950,6 +977,7 @@ function getTeams() {
         break;
 
       case "McNeese":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2377.png";
         team.TeamMascot = "Cowboys";
         team.MascotName = "Rowdy";
         team.ColorCodes = [["Royal Blue", "#003087"], ["Gold", "#FFC72C"]];
@@ -964,6 +992,7 @@ function getTeams() {
         break;
 
       case "Miami":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2390.png";
         team.TeamMascot = "Hurricanes";
         team.MascotName = "Sebastian the Ibis";
         team.ColorCodes = [["Orange", "#F47321"], ["Green", "#005030"]];
@@ -972,6 +1001,7 @@ function getTeams() {
 
       case "Miami OH":
       case "Miami (OH)":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/193.png";
         team.TeamMascot = "RedHawks";
         team.MascotName = "Swoop the RedHawk";
         team.ColorCodes = [["Red", "#B61E2E"], ["White", "#FFFFFF"]];
@@ -979,6 +1009,7 @@ function getTeams() {
         break;
  
       case "Michigan":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/130.png";
         team.TeamMascot = "Wolverines";
         team.MascotName = "None";
         team.ColorCodes = [["Maize", "#FFCB05"], ["Blue", "#00274C"]];
@@ -987,6 +1018,7 @@ function getTeams() {
 
       case "Michigan St":
       case "Michigan State":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/127.png";
         team.TeamMascot = "Spartans";
         team.MascotName = "Sparty";
         team.ColorCodes = [["Spartan Green", "#18453B"], ["White", "#FFFFFF"]];
@@ -1002,6 +1034,7 @@ function getTeams() {
         break;
 
       case "Missouri":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/142.png";
         team.TeamMascot = "Tigers";
         team.MascotName = "Truman the Tiger";
         team.ColorCodes = [["Mizzou Gold", "#F1B82D"], ["Black", "#000000"]];
@@ -1058,6 +1091,7 @@ function getTeams() {
       case "NC State":
       case "North Carolina St":
       case "North Carolina State":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/152.png";
         team.TeamMascot = "Wolfpack";
         team.MascotName = "Mr. and Mrs. Wuf";
         team.ColorCodes = [["Red", "#CC0000"], ["White", "#FFFFFF"]];
@@ -1065,6 +1099,7 @@ function getTeams() {
         break;
 
       case "Nebraska":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/158.png";
         team.TeamMascot = "Cornhuskers";
         team.MascotName = "Herbie Husker";
         team.ColorCodes = [["Scarlet", "#E41C38"], ["Cream", "#F5E6D0"]];
@@ -1102,6 +1137,7 @@ function getTeams() {
         break;
 
       case "North Carolina":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/153.png";
         team.TeamMascot = "Tar Heels";
         team.MascotName = "Rameses";
         team.ColorCodes = [["Carolina Blue", "#4B9CD3"], ["White", "#FFFFFF"]];
@@ -1110,6 +1146,7 @@ function getTeams() {
 
       case "North Dakota St":
       case "North Dakota State":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2449.png";
         team.TeamMascot = "Bison";
         team.MascotName = "Thundar the Bison";
         team.ColorCodes = [["Green", "#005030"], ["Yellow", "#FFC72C"]];
@@ -1117,6 +1154,7 @@ function getTeams() {
         break;
  
       case "Northern Iowa":
+        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2460.png";
         team.TeamMascot = "Panthers";
         team.MascotName = "TC the Panther";
         team.ColorCodes = [["Purple", "#4B116F"], ["Gold", "#FFCD00"]];
@@ -1146,6 +1184,7 @@ function getTeams() {
 
       case "Ohio St":
       case "Ohio State":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/194.png";
         team.TeamMascot = "Buckeyes";
         team.MascotName = "Brutus";
         team.ColorCodes = [["Scarlet", "#BB0000"], ["Gray", "#666666"]];
@@ -1188,6 +1227,7 @@ function getTeams() {
         break;
 
       case "Penn":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/219.png";
         team.TeamMascot = "Quakers";
         team.MascotName = "The Quaker";
         team.ColorCodes = [["Red", "#990000"], ["Blue", "#011F5B"]];
@@ -1204,6 +1244,7 @@ function getTeams() {
 
       case "Prairie View AM":
       case "Prairie View A&M":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2504.png";
         team.TeamMascot = "Panthers";
         team.MascotName = "Bubba the Panther";
         team.ColorCodes = [["Purple", "#4B116F"], ["Gold", "#FFCD00"]];
@@ -1225,6 +1266,7 @@ function getTeams() {
         break;
 
       case "Purdue":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2509.png";
         team.TeamMascot = "Boilermakers";
         team.MascotName = "Boilermaker Special";
         team.ColorCodes = [["Old Gold", "#CFB991"], ["Black", "#000000"]];
@@ -1232,6 +1274,7 @@ function getTeams() {
         break;
 
       case "Queens":
+        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2511.png";
         team.TeamMascot = "Royals";
         team.MascotName = "Royal";
         team.ColorCodes = [["Royal Blue", "#003082"], ["Gold", "#C5A028"]];
@@ -1260,6 +1303,7 @@ function getTeams() {
         break;
 
       case "Saint Louis":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/139.png";
         team.TeamMascot = "Billikens";
         team.MascotName = "The Billiken";
         team.ColorCodes = [["Royal Blue", "#003082"], ["White", "#FFFFFF"]];
@@ -1267,6 +1311,7 @@ function getTeams() {
         break;
  
       case "Santa Clara":
+        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2541.png";
         team.TeamMascot = "Broncos";
         team.MascotName = "The Bronco";
         team.ColorCodes = [["Red", "#862633"], ["White", "#FFFFFF"]];
@@ -1284,6 +1329,7 @@ function getTeams() {
         break;
 
       case "Saint Mary's":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2608.png";
         team.TeamMascot = "Gaels";
         team.MascotName = "Gael Force One";
         team.ColorCodes = [["Navy", "#002060"], ["Red", "#BA0C2F"], ["Silver", "#A9A9A9"]];
@@ -1327,6 +1373,7 @@ function getTeams() {
         break;
 
       case "Siena":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2561.png";
         team.TeamMascot = "Saints";
         team.MascotName = "Friar";
         team.ColorCodes = [["Green", "#215732"], ["Gold", "#C5A028"]];
@@ -1348,6 +1395,7 @@ function getTeams() {
         break;
 
       case "SMU":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2567.png";
         team.TeamMascot = "Mustangs";
         team.MascotName = "Peruna the Mustang";
         team.ColorCodes = [["Red", "#CC0000"], ["Blue", "#354CA1"]];
@@ -1355,6 +1403,7 @@ function getTeams() {
         break;
  
       case "South Florida":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/58.png";
         team.TeamMascot = "Bulls";
         team.MascotName = "Rocky the Bull";
         team.ColorCodes = [["Green", "#006747"], ["Gold", "#CFC493"]];
@@ -1369,6 +1418,7 @@ function getTeams() {
         break;
 
       case "St John's":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2599.png";
         team.TeamMascot = "Red Storm";
         team.MascotName = "Johnny Thunderbird";
         team.ColorCodes = [["Red", "#BA0C2F"], ["Blue", "#041C2C"]];
@@ -1383,6 +1433,7 @@ function getTeams() {
         break;
 
       case "TCU":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2628.png";
         team.TeamMascot = "Horned Frogs";
         team.MascotName = "Superfrog";
         team.ColorCodes = [["Purple", "#4D1979"], ["White", "#FFFFFF"]];
@@ -1390,6 +1441,7 @@ function getTeams() {
         break;
 
       case "Tennessee":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2633.png";
         team.TeamMascot = "Volunteers";
         team.MascotName = "Smokey";
         team.ColorCodes = [["Tennessee Orange", "#FF8200"], ["White", "#FFFFFF"]];
@@ -1398,6 +1450,7 @@ function getTeams() {
 
       case "Tennessee St":
       case "Tennessee State":
+        team.Logo = "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2634.png";
         team.TeamMascot = "Tigers";
         team.MascotName = "Aristocat the Tiger";
         team.ColorCodes = [["Blue", "#003082"], ["White", "#FFFFFF"]];
@@ -1405,6 +1458,7 @@ function getTeams() {
         break;
  
       case "Texas":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/251.png";
         team.TeamMascot = "Longhorns";
         team.MascotName = "Bevo";
         team.ColorCodes = [["Burnt Orange", "#BF5700"], ["White", "#FFFFFF"]];
@@ -1412,6 +1466,7 @@ function getTeams() {
         break;
 
       case "Texas A&M":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/245.png";
         team.TeamMascot = "Aggies";
         team.MascotName = "Reveille";
         team.ColorCodes = [["Maroon", "#500000"], ["White", "#FFFFFF"]];
@@ -1434,6 +1489,7 @@ function getTeams() {
         break;
 
       case "Texas Tech":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2641.png";
         team.TeamMascot = "Red Raiders";
         team.MascotName = "Masked Rider, Raider Red";
         team.ColorCodes = [["Scarlet", "#CC0000"], ["Black", "#000000"]];
@@ -1441,6 +1497,7 @@ function getTeams() {
         break;
 
       case "Troy":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2653.png";
         team.TeamMascot = "Trojans";
         team.MascotName = "T-Roy";
         team.ColorCodes = [["Red", "#8A2432"], ["Grey", "#B3B5B8"], ["White", "#FFFFFF"]];
@@ -1455,6 +1512,7 @@ function getTeams() {
         break;
 
       case "UCF":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2116.png";
         team.TeamMascot = "Knights";
         team.MascotName = "Knightro the Knight";
         team.ColorCodes = [["Black", "#000000"], ["Gold", "#FFC904"]];
@@ -1477,6 +1535,7 @@ function getTeams() {
         break;
 
       case "UCLA":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/26.png";
         team.TeamMascot = "Bruins";
         team.MascotName = "Joe Bruin";
         team.ColorCodes = [["True Blue", "#2D68C4"], ["Gold", "#F2A900"]];
@@ -1484,6 +1543,7 @@ function getTeams() {
         break;
 
       case "UConn":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/41.png";
         team.TeamMascot = "Huskies";
         team.MascotName = "Jonathan the Husky";
         team.ColorCodes = [["Navy Blue", "#000E2F"], ["White", "#FFFFFF"]];
@@ -1491,6 +1551,7 @@ function getTeams() {
         break;
 
       case "UMBC":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2413.png";
         team.TeamMascot = "Retrievers";
         team.MascotName = "True Grit";
         team.ColorCodes = [["Black", "#000000"], ["Gold", "#F0B323"]];
@@ -1520,6 +1581,7 @@ function getTeams() {
 
       case "Utah St":
       case "Utah State":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/328.png";
         team.TeamMascot = "Aggies";
         team.MascotName = "Big Blue";
         team.ColorCodes = [["Navy", "#00285E"], ["White", "#FFFFFF"]];
@@ -1527,6 +1589,7 @@ function getTeams() {
         break;
 
       case "Vanderbilt":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/238.png";
         team.TeamMascot = "Commodores";
         team.MascotName = "Mr. Commodore";
         team.ColorCodes = [["Black", "#000000"], ["Old Gold", "#866D4B"]];
@@ -1534,6 +1597,7 @@ function getTeams() {
         break;
 
       case "VCU":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2670.png";
         team.TeamMascot = "Rams";
         team.MascotName = "Rodney the Ram";
         team.ColorCodes = [["Black", "#000000"], ["Gold", "#C4A44A"]];
@@ -1548,6 +1612,7 @@ function getTeams() {
         break;
 
       case "Villanova":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/222.png";
         team.TeamMascot = "Wildcats";
         team.MascotName = "Will D. Cat";
         team.ColorCodes = [["Navy Blue", "#00205B"], ["White", "#FFFFFF"]];
@@ -1555,6 +1620,7 @@ function getTeams() {
         break;
 
       case "Virginia":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/258.png";
         team.TeamMascot = "Cavaliers";
         team.MascotName = "Cavalier";
         team.ColorCodes = [["Blue", "#232D4B"], ["Orange", "#E57200"]];
@@ -1592,6 +1658,7 @@ function getTeams() {
         break;
 
       case "Wisconsin":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/275.png";
         team.TeamMascot = "Badgers";
         team.MascotName = "Bucky Badger";
         team.ColorCodes = [["Cardinal Red", "#C5050C"], ["White", "#FFFFFF"]];
@@ -1607,6 +1674,7 @@ function getTeams() {
 
       case "Wright St":
       case "Wright State":
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2750.png";
         team.TeamMascot = "Raiders";
         team.MascotName = "Rowdy Raider";
         team.ColorCodes = [["Green", "#006338"], ["Gold", "#C5A028"]];
@@ -1636,6 +1704,7 @@ function getTeams() {
 
       // ── template for new entries ──────────────────────────────────────────
       // case "TEAMNAME":
+      //   team.Logo = "";
       //   team.TeamMascot = "";
       //   team.MascotName = "";
       //   team.ColorCodes = [["NAME", "#000000"], ["NAME", "#000000"]];
