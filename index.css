@@ -125,6 +125,13 @@ body {
   display: none;
 }
 
+.ff-intro-message {
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
 .first-four-teams {
   display: flex;
   width: 100%;
@@ -157,6 +164,17 @@ body {
   max-height: 22vh;
   max-width: 15vw;
   margin: 2px auto;
+}
+
+.ff-colors {
+  font-size: x-small;
+  margin: 1px 0;
+}
+
+.ff-mascot-name {
+  font-size: x-small;
+  font-style: italic;
+  margin: 1px 0;
 }
 
 .undecided-message {

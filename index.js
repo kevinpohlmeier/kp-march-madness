@@ -142,6 +142,23 @@ function displayTeam(team, number) {
       ffTeamDivs[j].querySelector(".ff-name").innerText = team.FirstFour[j];
       ffTeamDivs[j].querySelector(".ff-logo-image").src = ffTeamObj.Logo || _blankImage;
       ffTeamDivs[j].querySelector(".ff-mascot-image").src = ffTeamObj.MascotImage || _blankImage;
+      ffTeamDivs[j].querySelector(".ff-mascot-name").innerText = ffTeamObj.MascotName || "??";
+      var ffColorsEl = ffTeamDivs[j].querySelector(".ff-colors");
+      ffColorsEl.replaceChildren();
+      if (ffTeamObj.ColorCodes) {
+        ffTeamObj.ColorCodes.forEach(function(colorEntry, ci) {
+          var swatch = document.createElement("span");
+          swatch.className = "color-swatch";
+          swatch.style.backgroundColor = colorEntry[1];
+          ffColorsEl.appendChild(swatch);
+          ffColorsEl.appendChild(document.createTextNode(colorEntry[0]));
+          if (ci < ffTeamObj.ColorCodes.length - 1) {
+            ffColorsEl.appendChild(document.createTextNode(", "));
+          }
+        });
+      } else {
+        ffColorsEl.innerText = ffTeamObj.TeamColors || "??";
+      }
     }
   } else {
     // Regular mode: hide split display, show regular detail rows
