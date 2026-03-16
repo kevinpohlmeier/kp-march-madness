@@ -208,46 +208,16 @@ function generateBracket(){
   }
   
   for (let i = 0; i < games.length; i++) {
-    let section = -1;
+    let section;
 
-    if (i < 8) {
-      section = 1;
-    } else if (i < 16) {
-      section = 2;
-    } else if (i < 24) {
-      section = 3;
-    } else if (i < 32) {
-      section = 4;
-    } else if (i < 36) {
-      section = 5;
-    } else if (i < 40) {
-      section = 6;
-    } else if (i < 44) {
-      section = 7;
+    if (i < 32) {
+      section = Math.floor(i / 8) + 1;         // Round of 64: sections 1–4, 8 games each
     } else if (i < 48) {
-      section = 8;
-    } else if (i < 50) {
-      section = 9;
-    } else if (i < 52) {
-      section = 10;
-    } else if (i < 54) {
-      section = 11;
+      section = Math.floor((i - 32) / 4) + 5;  // Round of 32: sections 5–8, 4 games each
     } else if (i < 56) {
-      section = 12;
-    } else if (i < 57) {
-      section = 13;
-    } else if (i < 58) {
-      section = 14;
-    } else if (i < 59) {
-      section = 15;
-    } else if (i < 60) {
-      section = 16;
-    } else if (i < 61) {
-      section = 17;
-    } else if (i < 62) {
-      section = 18;
+      section = Math.floor((i - 48) / 2) + 9;  // Sweet 16: sections 9–12, 2 games each
     } else if (i < 63) {
-      section = 19;
+      section = i - 43;                         // Elite 8 through Championship: sections 13–19, 1 game each
     } else {
       continue;
     }
