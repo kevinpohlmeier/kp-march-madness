@@ -16,7 +16,7 @@
 // }))
 
 
-// TODO: display ColorCodes
+
 // TODO: display First Four options
 // TODO: help prevent double tap to accidentally pick next team
 // TODO: help prevent long press image download popup, text selection, etc
@@ -132,13 +132,24 @@ function displayTeam(team, number) {
     undecidedMessage = "This team does not have a mascot";
   }
   
-  let colors = team.TeamColors;
-  if (team.ColorCodes){
-    colors = team.ColorCodes.map(x => x[0]).join(", ");
-  }
   var container = document.querySelector(".team" + number);
   container.querySelector(".name").innerText = team.Name + " (" + team.Seed + " Seed)";
-  container.querySelector(".colors").innerText = colors || "??";
+  var colorsEl = container.querySelector(".colors");
+  colorsEl.replaceChildren();
+  if (team.ColorCodes){
+    team.ColorCodes.forEach(function(colorEntry, i) {
+      var swatch = document.createElement("span");
+      swatch.className = "color-swatch";
+      swatch.style.backgroundColor = colorEntry[1];
+      colorsEl.appendChild(swatch);
+      colorsEl.appendChild(document.createTextNode(colorEntry[0]));
+      if (i < team.ColorCodes.length - 1) {
+        colorsEl.appendChild(document.createTextNode(", "));
+      }
+    });
+  } else {
+    colorsEl.innerText = team.TeamColors || "??";
+  }
   container.querySelector(".mascot").innerText = team.TeamMascot || "??";
   container.querySelector(".mascot-name").innerText = team.MascotName || "??";
   container.querySelector(".mascot-image").src = "";
