@@ -121,6 +121,62 @@ body {
   color: red;
 }
 
+.first-four-display {
+  display: none;
+}
+
+.ff-intro-message {
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.first-four-teams {
+  display: flex;
+  width: 100%;
+}
+
+.ff-team {
+  flex: 1;
+  text-align: center;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.ff-name {
+  font-size: small;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ff-logo-image {
+  display: block;
+  max-height: 7vw;
+  max-width: 15vw;
+  margin: 2px auto;
+}
+
+.ff-mascot-image {
+  display: block;
+  max-height: 22vh;
+  max-width: 15vw;
+  margin: 2px auto;
+}
+
+.ff-colors {
+  font-size: x-small;
+  margin: 1px 0;
+}
+
+.ff-mascot-name {
+  font-size: x-small;
+  font-style: italic;
+  margin: 1px 0;
+}
+
 .undecided-message {
   top: 10vh;
   position: relative;
@@ -189,6 +245,16 @@ body {
 
   .mascot-image { 
     max-height: 20vh;
+  }
+
+  .ff-logo-image {
+    max-height: 10vw;
+    max-width: 18vw;
+  }
+
+  .ff-mascot-image {
+    max-height: 12vh;
+    max-width: 18vw;
   }
 
 }
