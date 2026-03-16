@@ -305,7 +305,7 @@ function selectWinner(teamIndex) {
   if (selectionCooldown) return;
   selectionCooldown = true;
   clearTimeout(selectionCooldownTimer);
-  selectionCooldownTimer = setTimeout(function() { selectionCooldown = false; }, 500);
+  selectionCooldownTimer = setTimeout(function() { selectionCooldown = false; }, 350);
 
   var checks = document.querySelectorAll(".selected-winner");
   checks[0].style.display = "none";
