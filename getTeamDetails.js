@@ -297,7 +297,7 @@ function getTeamDetails(team) {
         break;
 
       case "Howard":
-        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2430.png";
+        team.Logo = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/47.png";
         team.TeamMascot = "Bison";
         team.MascotName = "Big Blue and Lady Blue";
         team.ColorCodes = [["Navy Blue", "#003A63"], ["White", "#FFFFFF"]];
