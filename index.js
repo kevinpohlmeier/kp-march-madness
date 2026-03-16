@@ -19,6 +19,8 @@
 games = new Array(32+16+8+4+2+1); 
 gameIndex = 0;
 var selectionCooldown = false;
+var selectionCooldownTimer = null;
+var SELECTION_COOLDOWN_MS = 200;
 
 window.onload = function() {
   var teams = getTeams();
@@ -215,7 +217,8 @@ function displayGame(){
     nextButton.style.display = "none";
     
     generateBracket();
-    selectionCooldown = false;
+    clearTimeout(selectionCooldownTimer);
+    selectionCooldownTimer = setTimeout(function() { selectionCooldown = false; }, SELECTION_COOLDOWN_MS);
     return;
   } 
 
@@ -246,7 +249,8 @@ function displayGame(){
   }
 
   updateHeader();
-  selectionCooldown = false;
+  clearTimeout(selectionCooldownTimer);
+  selectionCooldownTimer = setTimeout(function() { selectionCooldown = false; }, SELECTION_COOLDOWN_MS);
 
 }
 
